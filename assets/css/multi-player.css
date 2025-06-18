@@ -1,0 +1,123 @@
+.player-container {
+  background-color: yellow;
+  max-width: 1200px;
+  margin: auto;
+  margin-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap:20px;
+}
+	
+.player-container .main-video-container {
+  background-color: Blue;
+  width: 100%;
+  height: ;
+  padding:15px;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0,0,0,.1);
+}
+
+.player-container .main-video-container .main-video {
+  width: 100%;
+  margin-bottom: 7px;
+  border-radius: 5px;
+}
+	
+.player-container .main-video-container .main-vid-title {
+  color:White;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+}
+  
+.player-container .video-list-container {
+  background-color: pink;
+  width: 100%;
+  height: 485px;
+  padding:15px;
+  overflow-y: scroll;
+  border: 2px solid Red;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0,0,0,.1);
+}
+  
+.player-container .video-list-container .list {
+  background-color: Green;
+  display: flex;
+  align-items: center;
+  gap:15px;
+  padding:10px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+  
+.player-container .video-list-container .list:last-child {
+  margin-bottom: 0;
+}
+	
+.player-container .video-list-container .list.active {
+  background-color: Red;
+}
+	
+.player-container .video-list-container .list.active .list-title {
+  color:White;
+}
+	
+.player-container .video-list-container .list .list-video {
+  width: 100px;
+  border-radius: 5px;
+}
+  
+.player-container .video-list-container .list .list-title {
+  font-size: 17px;
+  color:Yellow;
+}
+  
+.player-container .video-list-container .list .time {
+  font-size: 20px;
+  color:Yellow;
+  padding-right:5px;
+  text-align: right;
+  display: block;
+}
+  
+.video-playlist > h3 {
+  background: linear-gradient(90deg, rgba(243, 0, 255, 1) 0%, rgba(0, 18, 255, 1) 50%, rgba(243, 0, 255, 1) 100%);
+  color: yellow;
+  padding: 5px 20px;
+  font-size: 20px;
+  border: 2px solid yellow;
+  border-radius: 20px 0px;
+}
+  
+.video-playlist > p {
+  background: linear-gradient(90deg, rgba(243, 0, 255, 1) 0%, rgba(0, 18, 255, 1) 50%, rgba(243, 0, 255, 1) 100%);
+  color: yellow;
+  width: 400px;
+  padding: 5px 20px;
+  font-size: 20px;
+  border: 2px solid yellow;
+  border-radius: 20px 0px;
+}
+  
+.player-container .video-list-container::-webkit-scrollbar {
+  width: 5px;
+}
+	
+.player-container .video-list-container::-webkit-scrollbar-track {
+  background-color: #808080;
+  border-radius: 5px;
+}
+	
+.player-container .video-list-container::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(to top, red,orange,yellow,green,blue,indigo,violet);
+  border-radius: 5px;
+}
+  
+.list video {
+  border: 3px solid yellow;
+  border-radius: 0px 20px 0px 20px;
+  height: 50px;
+}
