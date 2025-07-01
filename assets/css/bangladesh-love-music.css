@@ -185,10 +185,13 @@ input:checked+.slider:before {
 
 
 
+
 .content-box {
-background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHOURBkhU6p3J4oiw_71K7FOVpjnyvwNQydebB3sLCyo-njqE_c-hZB-7oG8WTsyyOBjJ_A-72i4LVdR2OkS7-SKwbVJqIFfTvbdQD5x3IKzq1jgkcc9_jJfSSlkpx-hdUSW0OHRv5pQ0UH6CHXgp1uqWOlFtyCC_JZfIuL4fKE160qEzC6MGg3GffLpQ/s1600/20240815_181425.jpg");
+background-image: url("https://github.com/masumbillah6778/image/raw/main/tania-thumbnail.jpg");
   height: ;
   margin: 0;
+  background-attachment:fixed;
+  background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   align-items: center;
