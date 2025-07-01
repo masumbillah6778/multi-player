@@ -7,124 +7,6 @@
   box-sizing: border-box;
 }
 
-/*@keyframes changeBackgroundColor {
-
-  0%,
-  100% {
-    background-image: #36353a;
-  }
-
-  15% {
-    background-image: #ff74a4;
-  }
-
-  25% {
-    background-color: #ff4500;
-  }
-
-  35% {
-    background-color: #205254;
-  }
-
-  45% {
-    background-color: #592700;
-  }
-
-  50% {
-    background-color: #231c42;
-  }
-
-  65% {
-    background-color: #ff9191;
-  }
-
-  75% {
-    background-color: #27ae60;
-  }
-
-  85% {
-    background-color: #f1c40f;
-  }
-
-  95% {
-    background-color: #00607a;
-  }
-}
-
-.header h1 {
-  color: rgb(151, 255, 146);
-  font-size: 65px;
-  font-family: 'Poppins';
-  text-align: center;
-}
-
-@keyframes changeColor {
-
-  0%,
-  100% {
-    color: rgb(151, 255, 146);
-  }
-
-  15% {
-    color: black;
-  }
-
-  25% {
-    color: #04ff00;
-  }
-
-  35% {
-    color: #ffffff;
-  }
-
-  45% {
-    color: #ffffff;
-  }
-
-  50% {
-    color: #000000;
-  }
-
-  65% {
-    color: #000000;
-  }
-
-  75% {
-    color: #000000;
-  }
-
-  85% {
-    color: #000000;
-  }
-
-  95% {
-    color: #ffffff;
-  }
-}
-
-.header h5 {
-  color: white;
-  font-size: 15px;
-  word-spacing: 12px;
-  text-align: center;
-}
-
-.header h5 a {
-  text-decoration: underline;
-  color: white;
-  cursor: pointer;
-}
-
-.content-container {
-  display: grid;
-  grid-template-columns: 0.1fr 1fr 0.1fr;
-  grid-template-rows: 2fr;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-  width: 100%;
-  justify-items: center;
-}*/
-
 /*======================================== Top Menu ========================================*/
 
 .header {
@@ -388,12 +270,14 @@ background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvX
 .song-details .name {
   color: white;
   font-size: 20px;
+  font-family: 'solaiman-lipi';
   font-weight: bold;
 }
 
 .song-details .artist {
   color: yellow;
   font-size: 15px;
+  font-family: 'solaiman-lipi';
   opacity: 0.9;
   line-height: 35px;
 }
