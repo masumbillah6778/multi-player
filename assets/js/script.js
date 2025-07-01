@@ -1,13 +1,69 @@
-let videoList = document.querySelectorAll('.video-list-container .list');
+let darkModeToggle = document
+.getElementById('darkModeToggle');
+let body = document
+.body;
 
-videoList.forEach(iframe =>{
-   iframe.onclick = () =>{
-      videoList.forEach(remove =>{remove.classList.remove('active')});
-      iframe.classList.add('active');
-      let src = iframe.querySelector('.list-video').src;
-      let title = iframe.querySelector('.list-title').innerHTML;
-      document.querySelector('.main-video-container .main-video').src = src;
-      document.querySelector('.main-video-container .main-video').play();
-      document.querySelector('.main-video-container .main-vid-title').innerHTML = title;
-   };
+darkModeToggle
+.addEventListener('change', function ()
+{
+    if (darkModeToggle.checked) 
+    {
+        enableDarkMode();
+    } else {
+        disableDarkMode();
+    }
+});
+
+function enableDarkMode() {
+    body
+    .classList
+    .add('dark-mode');
+};
+
+function disableDarkMode()
+{
+    body
+    .classList
+    .remove('dark-mode');
+};
+
+
+function myFunction()
+ {
+    var x = document
+    .getElementById("myTopnav");
+    if (x.className === "navbar-lists")
+    {
+        x.className += " responsive";
+    } else {
+        x.className = "navbar-lists";
+    }
+};
+
+
+
+
+
+
+
+// images Gallery
+
+$(document).ready(function() {
+	$('.popup-gallery').magnificPopup({
+		delegate: 'a',
+		type: 'image',
+		tLoading: 'Loading image #%curr%...',
+		mainClass: 'mfp-img-mobile',
+		gallery: {
+			enabled: true,
+			navigateByImgClick: true,
+			preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+		},
+		image: {
+			tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+			titleSrc: function(item) {
+				return item.el.attr('title') + '<small>by Marsel Van Oosten</small>';
+			}
+		}
+	});
 });
