@@ -1,255 +1,156 @@
-<!-- ====================================================
-Android Application
-Name:        Multi Player - 2025
-Author :     https://masumbillah6778bd.blogspot.com
-License:     Free Version
-Version:     1.0
-Published:   01 jun 2025
-==================================================== -->
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-	<!-- Boxicons -->
-	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
-	<!-- My CSS -->
-	<link rel="stylesheet" href="https://masumbillah6778.github.io/rab-8-phone-book-headquarters/assets/css/style.cs">
-	<link rel="stylesheet" href="assets/css/style.css">
-
-	<title> Multi Player 2025 </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Tania Media </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
+    <header class="header">
+        <a href="/"><img src="res/drawable/images/logo.jpg" alt="Brand logo"> <span class="brand-logo-name"> Tania Media </span></a>
+
+        <nav class="navbar">
+            <ul class="navbar-lists" id="myTopnav">
+                <li>
+                    <i class="fa fa-headphones"></i><a class="active" class="navbar-link audio-link" href="#"> Audio </a>
+                </li>
+
+                <li>
+                    <i class="fa fa-video-camera"></i><a class="navbar-link video-link" href="video.html"> Video </a>
+                </li>
+
+                <li>
+                    <i class="fa fa-camera"></i><a class="navbar-link imges-link" href="imges.html"> Imges </a>
+                </li>
+
+                <li>
+                    <label class="switch">
+                        <input type="checkbox" id="darkModeToggle">
+                        <span class="slider round"></span>
+                    </label>
+                </li>
+            </ul>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+    </header>
 
 
-
-
-<!-- CONTENT -->
-<section id="content">
-<!-- ============================================= Top Menu ============================================= -->
-		<nav>
-			<i class='bx bx-menu' ></i>
-			<form action="#">
-				<div class="form-input">
-					<input type="text" required="" id="myInput" onkeyup="filterTable()">
-					<button type="submit" class="search-btn"><i class='bx bx-search' ></i></button>
+    <main>
+        <section id="about-us-section">
+            <div class="about-us-container">
+                <h2 class="audio-heading"> Tania Audio Player </h2>
+                <div class="cardBox">
+					<div class="card">
+                        <div>
+                            <div class="cardName"> বাংলাদেশ </div>
+                            <div class="numbers"> লাভ অডিও </div>
+                        </div>
+                        <div class="iconBx">
+                            <a href="#">
+                                <img src="res/drawable/images/audio.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <div>
+                            <div class="cardName"> বাংলাদেশ </div>
+                            <div class="numbers"> সেড অডিও </div>
+                        </div>
+                        <div class="iconBx">
+                            <a href="#">
+                                <img src="res/drawable/images/audio.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <div>
+                            <div class="cardName"> ইন্ডিয়ান বাংলা </div>
+                            <div class="numbers"> লাভ অডিও </div>
+                        </div>
+                        <div class="iconBx">
+                            <a href="#">
+                                <img src="res/drawable/images/audio.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <div>
+                            <div class="cardName"> ইন্ডিয়ান বাংলা </div>
+                            <div class="numbers"> সেড অডিও </div>
+                        </div>
+                        <div class="iconBx">
+                            <a href="#">
+                                <img src="res/drawable/images/audio.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <div>
+                            <div class="cardName"> হিন্দি </div>
+                            <div class="numbers"> লাভ অডিও </div>
+                        </div>
+                        <div class="iconBx">
+                            <a href="#">
+                                <img src="res/drawable/images/audio.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <div>
+                            <div class="cardName"> হিন্দি </div>
+                            <div class="numbers"> সেড অডিও </div>
+                        </div>
+                        <div class="iconBx">
+                            <a href="#">
+                                <img src="res/drawable/images/audio.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <div>
+                            <div class="cardName"> বাংলাদেশ মিক্সং অডিও </div>
+                            <div class="numbers"> লাভ এন্ড সেড অডিও  </div>
+                        </div>
+                        <div class="iconBx">
+                            <a href="assets/html/mix-love-and-sad-song.html">
+                                <img src="res/drawable/images/audio.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <div>
+                            <div class="cardName"> ইন্ডিয়ান মিক্সং অডিও </div>
+                            <div class="numbers"> লাভ এন্ড সেড অডিও </div>
+                        </div>
+                        <div class="iconBx">
+                            <a href="assets/html/mix-love-and-sad-music.html">
+                                <img src="res/drawable/images/audio.png" alt="">
+                            </a>
+                        </div>
+                    </div>
 				</div>
-			</form>
-			<input type="checkbox" id="switch-mode" hidden>
-			<label for="switch-mode" class="switch-mode"></label>
-			<!--<a href="#" class="notification">
-				<i class='bx bxs-bell' ></i>
-				<span class="num">8</span>
-			</a>-->
-			<a href="#" class="profile">
-				<img src="res/drawable/images/logo.png">
-			</a>
-		</nav>
-		<!-- NAVBAR -->
+            </div>
+        </section>
 
-		<!-- MAIN -->
-		<main>
+        <footer>
+            <p> Blogspot <a href="https://masumbillah6778bd.blogspot.com/" target="_blank"> <img src="res/drawable/images/blogspot.png"> </a></p>
+        </footer>
 
+        <script src="assets/js/script.js"></script>
 
-
-
-
-<!-- ============================================= EMARINCI NUMBR ============================================= -->
-			<div class="head-title">
-				<div class="company">
-					<h1> Multi Player </h1>
-				</div>
-			</div>
-
-			<div class="cardBox">
-				<div class="card">
-					<div>
-						<div class="cardName"> বাংলাদেশ </div>
-						<div class="numbers"> লাভ সং </div>
-					</div>
-					<div class="iconBx">
-						<a href="#">
-							<img src="res/drawable/icons/video.png" alt="">
-						</a>
-					</div>
-				</div>
-				
-				<div class="card">
-					<div>
-						<div class="cardName"> বাংলাদেশ </div>
-						<div class="numbers"> সেড সং </div>
-					</div>
-					<div class="iconBx">
-						<a href="#">
-							<img src="res/drawable/icons/video.png" alt="">
-						</a>
-					</div>
-				</div>
-				
-				<div class="card">
-					<div>
-						<div class="cardName"> বাংলাদেশ </div>
-						<div class="numbers"> লাভ অডিও </div>
-					</div>
-					<div class="iconBx">
-						<a href="#">
-							<img src="res/drawable/icons/audio.png" alt="">
-						</a>
-					</div>
-				</div>
-				
-				<div class="card">
-					<div>
-						<div class="cardName"> বাংলাদেশ </div>
-						<div class="numbers"> সেড অডিও </div>
-					</div>
-					<div class="iconBx">
-						<a href="#">
-							<img src="res/drawable/icons/audio.png" alt="">
-						</a>
-					</div>
-				</div>
-
-				<div class="card">
-					<div>
-						<div class="cardName"> ইন্ডিয়ান বাংলা </div>
-						<div class="numbers"> লাভ সং </div>
-					</div>
-					<div class="iconBx">
-						<a href="#">
-							<img src="res/drawable/icons/video.png" alt="">
-						</a>
-					</div>
-				</div>
-				
-				<div class="card">
-					<div>
-						<div class="cardName"> ইন্ডিয়ান বাংলা </div>
-						<div class="numbers"> সেড সং </div>
-					</div>
-					<div class="iconBx">
-						<a href="#">
-							<img src="res/drawable/icons/video.png" alt="">
-						</a>
-					</div>
-				</div>
-				
-				<div class="card">
-					<div>
-						<div class="cardName"> ইন্ডিয়ান বাংলা </div>
-						<div class="numbers"> লাভ অডিও </div>
-					</div>
-					<div class="iconBx">
-						<a href="#">
-							<img src="res/drawable/icons/audio.png" alt="">
-						</a>
-					</div>
-				</div>
-				
-				<div class="card">
-					<div>
-						<div class="cardName"> ইন্ডিয়ান বাংলা </div>
-						<div class="numbers"> সেড অডিও </div>
-					</div>
-					<div class="iconBx">
-						<a href="#">
-							<img src="res/drawable/icons/audio.png" alt="">
-						</a>
-					</div>
-				</div>
-
-				<div class="card">
-					<div>
-						<div class="cardName"> ইন্ডিয়ান হিন্দি </div>
-						<div class="numbers"> লাভ সং </div>
-					</div>
-					<div class="iconBx">
-						<a href="#">
-							<img src="res/drawable/icons/video.png" alt="">
-						</a>
-					</div>
-				</div>
-				
-				<div class="card">
-					<div>
-						<div class="cardName"> ইন্ডিয়ান হিন্দি </div>
-						<div class="numbers"> সেড সং </div>
-					</div>
-					<div class="iconBx">
-						<a href="#">
-							<img src="res/drawable/icons/video.png" alt="">
-						</a>
-					</div>
-				</div>
-				
-				<div class="card">
-					<div>
-						<div class="cardName">  মিক্স ভিডিও </div>
-						<div class="numbers"> লাভ এন্ড সেড সং  </div>
-					</div>
-					<div class="iconBx">
-						<a href="assets/html/mix-love-and-sad-song.html">
-							<img src="res/drawable/icons/video.png" alt="">
-						</a>
-					</div>
-				</div>
-				
-				<div class="card">
-					<div>
-						<div class="cardName"> মিক্স অডিও </div>
-						<div class="numbers"> লাভ এন্ড সেড অডিও </div>
-					</div>
-					<div class="iconBx">
-						<a href="assets/html/mix-love-and-sad-music.html">
-							<img src="res/drawable/icons/audio.png" alt="">
-						</a>
-					</div>
-				</div>
-			</div>
-
-
-
-
-
-
-
-
-
-
-
-			<!-- ============================================= FOOTER ============================================= -->
-<div class="footer">
-    <div class="marquee">
-        <marquee direction="left" scrollamount="5"><span> আসসালামু আলাইকুম ওয়া রাহমাতুল্লাহ। যদি কোনো র‍্যাব সদস্য এই অ্যাপটির ভেতরে কোনো প্রকার ভুল পেয়ে থাকেন তাহলে দয়াকরে নিচের ৬৭৭৮ নাম্বারটিতে যোগাযোগ করুন। </span></marquee>
-    </div>
-    <hr>
-    <h2> &copy মোঃ মাসুম বিল্লাহ <a href="tel:01754-604359"> ৬৭৭৮ </a></h2>
-</div>
-
-
-
-
-
-<!-- ============================================= AOTU MUSIC ============================================= -->
-<audio autoplay hidden>
-  <source src="https://github.com/masumbillah6778/tones/raw/main/salam1.mp3" type="audio/mpeg">
-</audio>
-
-
-
-
-  </div>
-</div>
-		</main>
-		<!-- MAIN -->
-	</section>
-	<!-- CONTENT -->
-	
-
-	<script src="https://masumbillah6778.github.io/rab-8-phone-book-headquarters/assets/js/script.js"></script>
-	<script src="assets/js/script.js"></script>
-	<script src="https://masumbillah6778.github.io/js/diwali_effect.js"></script>
 </body>
+
 </html>
