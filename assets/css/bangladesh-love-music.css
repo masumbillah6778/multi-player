@@ -506,6 +506,7 @@ background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvX
   color: yellow;
   padding: 10px;
   font-size: 15px;
+  font-family: 'solaiman-lipi';
   font-weight: bold;
   text-shadow: 1px 1px 1px green, 0 0 2px blue, 0 0 2px red;
 }
@@ -518,6 +519,7 @@ background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvX
 .music-list ul li {
   color: white;
   font-size: 10px;
+  font-family: 'solaiman-lipi';
   list-style: none;
   display: flex;
   cursor: pointer;
