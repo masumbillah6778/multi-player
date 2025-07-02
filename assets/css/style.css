@@ -1,0 +1,610 @@
+@import url('https://masumbillah6778.github.io/fonts/english/english-custom-font.css');
+@import url('https://masumbillah6778.github.io/fonts/bangla/bangla-custom-font.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --header-green-color: #36ed22;
+    --aboutus-background-green-color: rgb(28, 225, 97);
+    --heading-color: #000;
+    --primary-color: #2162e3;
+    --heading-a-tag-color: #fff;
+    --heading-a-tag-hover-color: #212121;
+    --all-h2-color: #000;
+    --aboutus-strong-color: #000;
+    --aboutus-p-tag-color: #008;
+    --aboutus-border-color: rgb(28, 225, 97);
+}
+
+.dark-mode {
+    --header-green-color: #515251;
+    --aboutus-background-green-color: rgb(7, 8, 7);
+    --heading-color: #fff;
+    --primary-color: #212121;
+    --heading-a-tag-color: #f2f3f9;
+    --heading-a-tag-hover-color: #36ed22;
+    --all-h2-color: #fff;
+    --aboutus-strong-color: #36ed22;
+    --aboutus-p-tag-color: #fff;
+    --aboutus-border-color: rgb(142, 144, 143);
+}
+
+body {
+    background-image: url("https://github.com/masumbillah6778/image/raw/main/tania1.jpg");
+    background-color: rgb(0,0,0,.2);
+    background-blend-mode: overlay;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    /*width: 962px;
+    aspect-ratio: 16 / 9;*/
+    line-height: 1.6;
+    overflow-x: hidden;
+    border: 2px solid red;
+}
+
+
+
+body.dark-mode {
+    background-image: url("https://github.com/masumbillah6778/image/raw/main/tania-thumbnail.jpg");
+    background-color: ed;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    /*width: 962px;
+    aspect-ratio: 16 / 9;*/
+    line-height: 1.6;
+    overflow-x: hidden;
+    border: 2px solid red;
+}
+
+
+
+
+
+
+/*======================================== Top Menu ========================================*/
+
+.header {
+    background-color: gray;
+    width: 100%;
+    height: 10vh;
+    padding: 1.6rem 4.8rem;
+    display: flex;
+    top: 0;
+    position: sticky;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 20px 0px rgba(132, 144, 255, 0.2);
+    z-index: 9;
+}
+
+.dark-mode .header {
+    background-color: #3beb2b;
+}
+
+.header img {
+    height: 50px;
+    padding-top: 20px;
+    border-radius: 100px;
+}
+
+.brand-logo-name {
+    text-decoration: none;
+    color: #fff;
+    font-size: 40px;
+    font-family: 'love-letters';
+    letter-spacing: 2px;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--heading-a-tag-color);
+    transition: color 0.3s ease;
+}
+
+a.active {
+  background-color: rgb(255,0,0);
+  color: white;
+  margin-left: 5px;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+a:hover {
+    color: var(--heading-a-tag-hover-color);
+}
+
+.navbar-lists {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-lists li {
+    margin-right: 20px;
+}
+
+.navbar-lists li:last-child {
+    margin-right: 0;
+}
+
+.navbar-link {
+    color: var(--heading-a-tag-color);
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+.icon {
+    display: none;
+}
+
+.navbar-lists li:nth-child(1) i {
+    color: rgb(0,128,0);
+}
+
+.navbar-lists li:nth-child(2) i {
+    color: rgb(0,0,255);
+}
+
+.navbar-lists li:nth-child(3) i {
+    color: rgb(255,215,0);
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #2196F3;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.audio-heading {
+    color: red;
+    font-size: 25px;
+    font-family: 'sonsieone';
+}
+
+.vdieo-heading {
+    color: red;
+    font-size: 25px;
+    font-family: 'sonsieone';
+}
+
+.imges-heading {
+    color: red;
+    font-size: 25px;
+    font-family: 'sonsieone';
+}
+
+
+
+
+
+
+/*======================================== Audio & Video ========================================*/
+
+.cardBox {
+	width: 100%;
+	padding: 20px 0px;
+	display: grid;
+	position: relative;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 20px;
+}
+  
+.cardBox .card {
+	background-color: var(--white);
+    background-image: url("https://github.com/masumbillah6778/image/raw/main/tania-thumbnail.pg");
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+	padding: 30px;
+	display: flex;
+	position: relative;
+	justify-content: space-between;
+	cursor: pointer;
+	border: 2px solid var(--red);
+	border-radius: 20px;
+    box-shadow: 2px 2px 5px Red, -2px -2px 5px Green;
+}
+
+.dark-mode .cardBox .card {
+	background-color: var(--black);
+}
+  
+.cardBox .card .cardName {
+	color: blue;
+	margin-top: 5px;
+	font-size: 30px;
+	font-weight: bol;
+	font-family: 'bangla-lipi';
+}
+
+.dark-mode .cardBox .card .cardName {
+	color: yellow;
+}
+   
+.cardBox .card .numbers {
+	color: red;
+	padding: 10px 0px;
+	font-size: 15px;
+	font-weight: 500;
+	font-family: 'bangla-lipi';
+	position: relative;
+}
+
+.dark-mode .cardBox .card .numbers {
+	color: white;
+}
+  
+.cardBox .card .iconBx {
+	color: var(--black2);
+	font-size: 30px;
+}
+  
+.cardBox .card .iconBx img {
+	background-color: var(--white);
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	box-shadow: 2px 2px 5px Red, -2px -2px 5px Green;
+}
+
+.dark-mode .cardBox .card .iconBx img {
+	background-color: var(--dark);
+}
+  
+.cardBox .card .iconBx img:hover {
+	background: var(--blue);
+}
+
+.dark-mode .cardBox .card .iconBx img:hover {
+	background: var(--yellow);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*======================================== IMAGES GALLERY ========================================*/
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+  
+.card {
+    background: ;
+    color: ;
+    margin: 5px;
+    border-radius: 2px;
+    box-shadow: 2px 2px 5px Red, -2px -2px 5px Green;
+}
+
+.card-image {
+    background: ;
+    display: block;
+    padding-top: 70%;
+    position: relative;
+    width: 100%;
+}
+
+.card-image img {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .main {
+    .container {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 1rem;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/*======================================== Screen ========================================*/
+
+#about-us-section {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    padding-bottom: 20px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
+
+.dark-mode #about-us-section {
+    border: 2px solid white;
+}
+
+.about-us-container {
+    /*max-width: 800px;*/
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.subheading {
+    color: var(--aboutus-strong-color);
+}
+
+.about-us-container p {
+    font-size: 1.125rem;
+    line-height: 1.6;
+    color: var(--aboutus-p-tag-color);
+    text-align: left;
+}
+
+.about-us-container p:first-of-type {
+    margin-top: 0;
+}
+
+.about-us-container p:last-of-type {
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+/*======================================== FOOTER ========================================*/
+
+footer {
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    height: 10vh;
+    padding: 0px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+
+footer p {
+    color: yellow;
+    font-size: 40px;
+    font-family: 'love-letters';
+}
+
+footer img {
+    width: 30px;
+    height: 30px;
+}
+
+.dark-mode footer {
+    background-color: red;
+    border-top: 2px solid #fff;
+}
+
+
+
+
+
+
+
+
+/*======================================== MOBILE SCREEN ========================================*/
+
+@media screen and (max-width: 768px) {
+    .header {
+    background-color: red;
+    width: 100%;
+    height: 10vh;
+    padding: 10px 20px;
+    display: flex;
+    top: 0;
+    position: sticky;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 20px 0px rgba(132, 144, 255, 0.2);
+    z-index: 9;
+    }
+    
+    .header img {
+      width: ;
+    }
+
+    .brand-logo-name {
+      color: gold;
+        font-size: 25px;
+    }
+
+    .icon {
+        display: flex;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        z-index: 999;
+        color: #fff;
+        font-size: 24px;
+        cursor: pointer;
+        flex-direction: row-reverse;
+    }
+    
+    .audio-heading {
+      color: gold;
+      font-size: 20px;
+    }
+    
+    .vdieo-heading {
+      color: gold;
+      font-size: 20px;
+    }
+    
+    .imges-heading {
+      color: gold;
+      font-size: 20px;
+    }
+
+    .navbar-lists {
+        display: none;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #3beb2b;
+        width: 100%;
+        padding-top: 10px;
+        z-index: 998;
+    }
+
+    .navbar-lists.responsive {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar-lists.responsive li {
+        margin: 10px 0;
+    }
+
+    .navbar-link {
+        padding: 10px 20px;
+    }
+
+    .navbar-link i {
+        display: none;
+    }
+
+	.cardBox {
+		grid-template-columns: repeat(1, 1fr);
+	  }
+	  
+	.cardBox .card .cardName {
+	color: red;
+	font-size: 20px;
+}
+	
+	.cardBox .card .numbers {
+	  color: gold;
+	  font-size: 10px;
+	}
+	
+	.cardBox .card .iconBx img {
+	    width: 50px;
+	    height: 50px
+	}
+	
+	
+	/*========== Footer ==========*/
+	footer {
+    background-color: green;
+    color: #fff;
+    width: 100%;
+    height: 6vh;
+    padding: 0px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+
+footer p {
+    color: yellow;
+    font-size: 20px;
+    font-family: 'love-letters';
+}
+
+footer img {
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+.dark-mode footer {
+    background-color: #222;
+    border-top: 2px solid #fff;
+}
+}
+
+
+
+
+
