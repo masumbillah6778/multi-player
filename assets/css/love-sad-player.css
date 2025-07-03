@@ -24,20 +24,20 @@
 }
 
 .header img {
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
   margin: 10px 0px 0px 30px;
   border-radius: 100px;
 }
 
 .brand-logo-name {
-    text-decoration: none;
     color: #fff;
     margin-top: -70px;
     padding: 5px;
-    font-size: 30px;
+    font-size: 20px;
     font-family: 'love-letters';
     letter-spacing: 2px;
+    text-decoration: none;
 }
 
 a {
