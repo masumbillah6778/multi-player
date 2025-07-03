@@ -23,6 +23,10 @@
     z-index: 9;
 }
 
+.dark-mode .header {
+    background-color: black;
+}
+
 .header img {
   width: 25px;
   height: 25px;
