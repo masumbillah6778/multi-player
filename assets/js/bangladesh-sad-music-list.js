@@ -12,22 +12,22 @@ let allMusic = [
     src: "https://github.com/masumbillah6778/sadsong/raw/main/ami_to_amar_asi.mp3"
   },
   {
-    name: "3. The Cradle of Your Soul",
-    artist: "lemonmusicstudio",
+    name: "3. ও বন্ধু রে",
+    artist: "জুবিন গর্গ",
     img: "https://github.com/masumbillah6778/image/raw/main/tania-thumbnail.jpg",
-    src: "https://github.com/masumbillah6778/music_lyrics/raw/main/pirit-vison-jala.mp3"
+    src: "https://github.com/masumbillah6778/sadsong/raw/main/o_bondhu_re.mp3"
   },
   {
-    name: "4. Happy Acoustic Guitar Background Music",
-    artist: "Music_Unlimited",
+    name: "4. সাথী ভালবাসা মন ভোলে না",
+    artist: "মিস জোজো",
     img: "https://github.com/masumbillah6778/image/raw/main/tania-thumbnail.jpg",
-    src: "https://github.com/masumbillah6778/music_lyrics/raw/main/pirit-vison-jala.mp3"
+    src: "https://github.com/masumbillah6778/sadsong/raw/main/sathi_valobasa_mon.mp3"
   },
   {
-    name: "5. Sleepy cat",
-    artist: "Lofi_hour",
+    name: "5. মানুষ বড়ই স্বার্থপর",
+    artist: "বাউল সুকুমার",
     img: "https://github.com/masumbillah6778/image/raw/main/tania-thumbnail.jpg",
-    src: "https://github.com/masumbillah6778/music_lyrics/raw/main/pirit-vison-jala.mp3"
+    src: "https://github.com/masumbillah6778/sadsong/raw/main/manush_boroi_sharthopor.mp3"
   },
   {
     name: "6. Cinematic Fairy Tale Story",
