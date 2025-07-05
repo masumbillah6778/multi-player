@@ -367,26 +367,27 @@ h1 {
   color:inherit;
   text-decoration:none;
 }
-.mhn-player .play-list{
-  top:15px;
-  left:15px;
-  right:15px;
-  display:none;
-  bottom:245px;
-  overflow-y:auto;
-  position:absolute;
-  width:auto!important;
-  background:rgba(0,0,0,.4);
-  padding-right:1px!important;
+.mhn-player .play-list {
+  top: 55px;
+  left: 15px;
+  right: 15px;
+  display: none;
+  bottom: 245px;
+  overflow-y: auto;
+  position: absolute;
+  width: auto!important;
+  background: rgba(0,0,0,.4);
+  padding-right: 1px!important;
 }
-.mhn-player .play-list a{
-  color:#ccc;
-  display:block;
-  overflow:hidden;
-  padding:6px 10px;
-  white-space:nowrap;
-  text-overflow:ellipsis;
-  transition:all .4s ease-in-out 0s;
+.mhn-player .play-list a {
+  color: white;
+  padding: 6px 10px;
+  font-family: solaiman-lipi;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  transition: all .4s ease-in-out 0s;
 }
 .mhn-player .play-list a:hover{
   background:rgba(255,255,255,.2);
@@ -401,21 +402,35 @@ h1 {
   margin-right: 10px;
   border: 2px solid Blue;
 }
+
 .mhn-player .play-list .album-thumb img{
   width:100%;
   display:block;
 }
+
 .mhn-player .play-list .songs-info{
   max-width:240px;
   text-shadow:0 2px 2px #000;
 }
+
 .mhn-player .play-list .songs-info .song-title {
   font-size:16px;
 }
+
 .mhn-player .play-list .songs-info .songs-detail {
-  font-size:13px;
-  overflow:hidden;
-  text-overflow:ellipsis;
+  color: ;
+  font-size: 15px;
+  font-family: solaiman-lipi;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.mhn-player .play-list .songs-info .songs-detail span.song-artist {
+  color: yellow;
+}
+
+.mhn-player .play-list .songs-info .songs-detail span.album {
+  color: red;
 }
 
 .mhn-player .current-info {
