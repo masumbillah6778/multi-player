@@ -1,15 +1,15 @@
 let allMusic = [
   {
-    name: "১. পিরিত ভিষন জ্বালা",
-    artist: "আকাশ মাহমুদ",
+    name: "১. আমার বন্ধুরও বন্ধু আছে",
+    artist: "পারভেজ খান",
     img: "https://github.com/masumbillah6778/image/raw/main/tania-thumbnail.jpg",
     src: "https://github.com/masumbillah6778bd/bangladesh-sad-music/raw/main/amar-bondhur-o-bondhu-ase.mp3"
   },
   {
-    name: "2. Ambient Classical Guitar",
-    artist: "William_King",
+    name: "2. আমি তো আমার আসি",
+    artist: "খাইরুল ওয়াসি",
     img: "https://github.com/masumbillah6778/image/raw/main/tania-thumbnail.jpg",
-    src: "https://github.com/masumbillah6778/music_lyrics/raw/main/pirit-vison-jala.mp3"
+    src: "https://github.com/masumbillah6778/sadsong/raw/main/ami_to_amar_asi.mp3"
   },
   {
     name: "3. The Cradle of Your Soul",
