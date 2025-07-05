@@ -403,18 +403,22 @@ h1 {
   border: 2px solid Blue;
 }
 
-.mhn-player .play-list .album-thumb img{
-  width:100%;
-  display:block;
+.mhn-player .play-list .album-thumb img {
+  width: 100%;
+  display: block;
 }
 
-.mhn-player .play-list .songs-info{
-  max-width:240px;
-  text-shadow:0 2px 2px #000;
+.mhn-player .play-list .songs-info {
+  max-width: 240px;
+  text-shadow: 0 2px 2px #000;
 }
 
 .mhn-player .play-list .songs-info .song-title {
-  font-size:16px;
+  color: white;
+  font-size: 20px;
+  font-family: solaiman-lipi;
+  font-weight: bold;
+  font-style: italic;
 }
 
 .mhn-player .play-list .songs-info .songs-detail {
