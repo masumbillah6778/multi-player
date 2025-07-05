@@ -435,7 +435,7 @@ h1 {
   color: Cyan;
   font-size: 15px;
   margin-top:10px;
-  font-family: solaimanlipi;
+  font-family: solaiman-lipi;
   font-weight: Bold;
   font-style: itali;
 }
@@ -444,16 +444,16 @@ h1 {
   color: Red;
   font-size: 15px;
   margin-top:10px;
-  font-family: solaimanlipi;
+  font-family: solaiman-lipi;
   font-weight: Bold;
   font-style: itali;
 }
   
-.mhn-player .current-info .song-title{
+.mhn-player .current-info .song-title {
   color: Yellow;
   font-size:20px;
   margin-top:10px;
-  font-family: solaimanlipi;
+  font-family: solaiman-lipi;
   font-weight: Bold;
   font-style: italic;
 }
