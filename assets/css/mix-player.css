@@ -749,6 +749,10 @@ footer {
     bottom: 0;
 }
 
+.dark-mode footer {
+    background-color: red;
+}
+
 footer p {
     color: yellow;
     padding: 3px;
