@@ -319,9 +319,9 @@ h1 {
 .mhn-player .album-thumb{
   background: url(=) no-repeat center / 50%;
 }
-.mhn-player .album-art{
+.mhn-player .album-art {
   width: 100%;
-  height:330px;
+  height: 250px;
   overflow:hidden;
   position:relative;
   border: 2px solid White;
