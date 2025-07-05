@@ -395,11 +395,11 @@ h1 {
   color: Orange;
 }
 .mhn-player .play-list .album-thumb{
-  width:35px;
-  height:35px;
-  overflow:hidden;
-  margin-right:10px;
-  border:1px solid Blue;
+  width: 35px;
+  height: 10px;
+  overflow: hidden;
+  margin-right: 10px;
+  border: 2px solid Blue;
 }
 .mhn-player .play-list .album-thumb img{
   width:100%;
@@ -409,16 +409,16 @@ h1 {
   max-width:240px;
   text-shadow:0 2px 2px #000;
 }
-.mhn-player .play-list .songs-info .song-title{
+.mhn-player .play-list .songs-info .song-title {
   font-size:16px;
 }
-.mhn-player .play-list .songs-info .songs-detail{
+.mhn-player .play-list .songs-info .songs-detail {
   font-size:13px;
   overflow:hidden;
   text-overflow:ellipsis;
 }
 
-.mhn-player .current-info{
+.mhn-player .current-info {
   left:30px;
   right:30px;
   bottom:160px;
@@ -431,7 +431,7 @@ h1 {
   margin-top:10px;
 }
   
-.mhn-player .current-info .song-artist{
+.mhn-player .current-info .song-artist {
   color: Cyan;
   font-size: 15px;
   margin-top:10px;
@@ -440,7 +440,7 @@ h1 {
   font-style: itali;
 }
   
-.mhn-player .current-info .song-album{
+.mhn-player .current-info .song-album {
   color: Red;
   font-size: 15px;
   margin-top:10px;
@@ -467,7 +467,7 @@ h1 {
   margin-top:30px;
   position:relative;
 }
-.mhn-player .controls .toggle-play-list{
+.mhn-player .controls .toggle-play-list {
   right:5px;
   width:40px;
   color:#ccc;
@@ -479,7 +479,7 @@ h1 {
   position:absolute;
   background-color:crimson;
 }
-.mhn-player .controls .fa-pp:before{
+.mhn-player .controls .fa-pp:before {
   content:'\f04b';
 }
 .mhn-player .controls .active .fa-pp:before{
@@ -491,11 +491,11 @@ h1 {
   position:relative;
   background: Red;
 }
-.mhn-player .controls .duration{
+.mhn-player .controls .duration {
   color: White;
   font-size:14px;
 }
-.mhn-player .controls .progress .bar{
+.mhn-player .controls .progress .bar {
   width:0;
   display:block;
   height:inherit;
