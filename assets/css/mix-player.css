@@ -395,7 +395,7 @@ h1 {
 .mhn-player .play-list a.active{
   color: Orange;
 }
-.mhn-player .play-list .album-thumb{
+.mhn-player .play-list .album-thumb {
   width: 35px;
   height: 10px;
   overflow: hidden;
@@ -406,6 +406,7 @@ h1 {
 .mhn-player .play-list .album-thumb img {
   width: 100%;
   display: block;
+  vertical-align: middle;
 }
 
 .mhn-player .play-list .songs-info {
