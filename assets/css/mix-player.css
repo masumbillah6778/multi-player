@@ -389,11 +389,11 @@ h1 {
   text-overflow: ellipsis;
   transition: all .4s ease-in-out 0s;
 }
-.mhn-player .play-list a:hover{
-  background:rgba(255,255,255,.2);
+.mhn-player .play-list a:hover {
+  background: rgba(255,255,255,.2);
 }
-.mhn-player .play-list a.active{
-  color: Orange;
+.mhn-player .play-list a.active {
+  background: green;
 }
 .mhn-player .play-list .album-thumb {
   width: 35px;
