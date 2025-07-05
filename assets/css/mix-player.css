@@ -2,9 +2,91 @@
 @import url('https://masumbillah6778.github.io/fonts/bangla/bangla-custom-font.css');
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --header-green-color: #36ed22;
+    --aboutus-background-green-color: rgb(28, 225, 97);
+    --heading-color: #000;
+    --primary-color: #2162e3;
+    --heading-a-tag-color: #fff;
+    --heading-a-tag-hover-color: #212121;
+    --all-h2-color: #000;
+    --aboutus-strong-color: #000;
+    --aboutus-p-tag-color: #008;
+    --aboutus-border-color: rgb(28, 225, 97);
+}
+
+.dark-mode {
+    --header-green-color: #515251;
+    --aboutus-background-green-color: rgb(7, 8, 7);
+    --heading-color: #fff;
+    --primary-color: #212121;
+    --heading-a-tag-color: #f2f3f9;
+    --heading-a-tag-hover-color: #36ed22;
+    --all-h2-color: #fff;
+    --aboutus-strong-color: #36ed22;
+    --aboutus-p-tag-color: #fff;
+    --aboutus-border-color: rgb(142, 144, 143);
+}
+
+body {
+    background-image: url("https://github.com/masumbillah6778/image/raw/main/tania1.jpg");
+    background-color: rgb(0,0,0,.2);
+    background-blend-mode: overlay;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    /*width: 962px;
+    aspect-ratio: 16 / 9;*/
+    line-height: 1.6;
+    overflow-x: hidden;
+    border: 2px solid red;
+}
+
+
+
+body.dark-mode {
+    background-image: url("https://github.com/masumbillah6778/image/raw/main/tania-thumbnail.jpg");
+    background-color: ed;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    /*width: 962px;
+    aspect-ratio: 16 / 9;*/
+    line-height: 1.6;
+    overflow-x: hidden;
+    border: 2px solid red;
+}
+
+
+
+
+
+
+/*======================================== Top Menu ========================================*/
+
+.header {
+    background-color: gray;
+    width: 100%;
+    height: 10vh;
+    padding: 1.6rem 4.8rem;
+    display: flex;
+    top: 0;
+    position: sticky;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 20px 0px rgba(132, 144, 255, 0.2);
+    z-index: 9;
+}
+
+.dark-mode .header {
+    background-color: #3beb2b;
 }
 
 /*======================================== Top Menu ========================================*/
