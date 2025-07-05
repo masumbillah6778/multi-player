@@ -30,10 +30,10 @@ let allMusic = [
     src: "https://github.com/masumbillah6778/sadsong/raw/main/manush_boroi_sharthopor.mp3"
   },
   {
-    name: "6. Cinematic Fairy Tale Story",
-    artist: "Daddy_s_Music",
+    name: "6. আমার আগুনের ছাই",
+    artist: "রাজ বর্মণ",
     img: "https://github.com/masumbillah6778/image/raw/main/tania-thumbnail.jpg",
-    src: "https://github.com/masumbillah6778/music_lyrics/raw/main/pirit-vison-jala.mp3"
+    src: "https://github.com/masumbillah6778/sadsong/raw/main/amar_aguner_chai.mp3"
   },
   {
     name: "7. Relaxed Vlog (Night Street)",
