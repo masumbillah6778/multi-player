@@ -1,3 +1,5 @@
+/*======================================== 48" TV SCREEN ========================================*/
+
 @import url('https://masumbillah6778.github.io/fonts/english/english-custom-font.css');
 @import url('https://masumbillah6778.github.io/fonts/bangla/bangla-custom-font.css');
 
@@ -611,7 +613,7 @@ footer img {
   
   
   
-/* ==================== MOBILE SCREEN ==================== */  
+/*======================================== MOBILE SCREEN ========================================*/
   
 @media only screen and (max-width: 400px) {
   ..controls i {
