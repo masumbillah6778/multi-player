@@ -9,13 +9,13 @@ let allMusic = [
     name: "২. Ambient Classical Guitar",
     artist: "William_King",
     img: "https://github.com/masumbillah6778/image/raw/main/tania-thumbnail.jpg",
-    src: "https://github.com/masumbillah6778/music_lyrics/raw/main/pirit-vison-jala.mp3"
+    src: "https://github.com/masumbillah6778bd/bangladesh-love-music/raw/main/tukro-tukro.mp3"
   },
   {
     name: "৩. The Cradle of Your Soul",
     artist: "lemonmusicstudio",
     img: "https://github.com/masumbillah6778/image/raw/main/tania-thumbnail.jpg",
-    src: "https://github.com/masumbillah6778/music_lyrics/raw/main/pirit-vison-jala.mp3"
+    src: "https://github.com/masumbillah6778bd/bangladesh-love-music/raw/main/baby jan jan bole.mp3"
   },
   {
     name: "৪. Happy Acoustic Guitar Background Music",
