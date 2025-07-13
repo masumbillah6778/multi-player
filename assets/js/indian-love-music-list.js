@@ -3,7 +3,7 @@ let allMusic = [
     name: "১. পিরিত ভিষন জ্বালা",
     artist: "আকাশ মাহমুদ",
     img: "https://github.com/masumbillah6778/image/raw/main/tania-thumbnail.jpg",
-    src: "https://github.com/masumbillah6778bd/bangladesh-love-music/raw/main/tomare-tomare.mp3"
+    src: "https://github.com/masumbillah6778bd/indian-bangla-love-music/raw/main/tor-pirite.mp3"
   },
   {
     name: "২. Ambient Classical Guitar",
