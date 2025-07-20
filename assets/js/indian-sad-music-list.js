@@ -54,7 +54,7 @@ let allMusic = [
     src: "https://github.com/masumbillah6778/sadsong/raw/main/tomi_dure_dure_r_thekona.mp3"
   },
   {
-    name: "১0. ওলো আমার পরাণ সখি",
+    name: "১০. ওলো আমার পরাণ সখি",
     artist: "সোহাগ",
     img: "https://github.com/masumbillah6778/image/raw/main/tania-thumbnail.jpg",
     src: "https://github.com/masumbillah6778/sadsong/raw/main/olo_amar_poran_sokhi.mp3"
