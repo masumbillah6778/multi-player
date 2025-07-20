@@ -1,51 +1,51 @@
 let allMusic = [
   {
-    name: "১. আমার বন্ধুরও বন্ধু আছে",
-    artist: "পারভেজ খান",
-    img: "https://github.com/masumbillah6778/image/raw/main/tania-thumbnail.jpg",
-    src: "https://github.com/masumbillah6778bd/bangladesh-sad-music/raw/main/amar-bondhur-o-bondhu-ase.mp3"
-  },
-  {
-    name: "2. আমি তো আমার আসি",
-    artist: "খাইরুল ওয়াসি",
-    img: "https://github.com/masumbillah6778/image/raw/main/tania-thumbnail.jpg",
-    src: "https://github.com/masumbillah6778/sadsong/raw/main/ami_to_amar_asi.mp3"
-  },
-  {
-    name: "3. ও বন্ধু রে",
-    artist: "জুবিন গর্গ",
-    img: "https://github.com/masumbillah6778/image/raw/main/tania-thumbnail.jpg",
-    src: "https://github.com/masumbillah6778/sadsong/raw/main/o_bondhu_re.mp3"
-  },
-  {
-    name: "4. সাথী ভালবাসা মন ভোলে না",
+    name: "১. সাথী ভালোবাসা মন ভোলে না",
     artist: "মিস জোজো",
     img: "https://github.com/masumbillah6778/image/raw/main/tania-thumbnail.jpg",
     src: "https://github.com/masumbillah6778/sadsong/raw/main/sathi_valobasa_mon.mp3"
   },
   {
-    name: "5. মানুষ বড়ই স্বার্থপর",
-    artist: "বাউল সুকুমার",
+    name: "২. ও বন্ধু রে",
+    artist: "জুবিন গর্গ",
     img: "https://github.com/masumbillah6778/image/raw/main/tania-thumbnail.jpg",
-    src: "https://github.com/masumbillah6778/sadsong/raw/main/manush_boroi_sharthopor.mp3"
+    src: "https://github.com/masumbillah6778/sadsong/raw/main/o_bondhu_re.mp3"
   },
   {
-    name: "6. আমার আগুনের ছাই",
+    name: "৩. মন বলে প্রিয়া প্রিয়া",
+    artist: "জুবিন গর্গ",
+    img: "https://github.com/masumbillah6778/image/raw/main/tania-thumbnail.jpg",
+    src: "https://github.com/masumbillah6778/sadsong/raw/main/mon_bole_priya_priya.mp3"
+  },
+  {
+    name: "৪. চোখের জলে ভাসিয়ে দিলাম",
+    artist: "জুবিন গর্গ",
+    img: "https://github.com/masumbillah6778/image/raw/main/tania-thumbnail.jpg",
+    src: "https://github.com/masumbillah6778/sadsong/raw/main/chokher_jole_vasiye_dilam.mp3"
+  },
+  {
+    name: "৫. হিয়া জলে",
+    artist: "বাউল সুকুমার",
+    img: "https://github.com/masumbillah6778/image/raw/main/tania-thumbnail.jpg",
+    src: "https://github.com/masumbillah6778bd/indian-sad-music/raw/main/heya-jole.mp3"
+  },
+  {
+    name: "৬. পিরিত করিস না",
     artist: "রাজ বর্মণ",
     img: "https://github.com/masumbillah6778/image/raw/main/tania-thumbnail.jpg",
-    src: "https://github.com/masumbillah6778/sadsong/raw/main/amar_aguner_chai.mp3"
+    src: "https://github.com/masumbillah6778bd/indian-sad-music/raw/main/pirit-koris-na.mp3"
   },
   {
     name: "7. ভিতর কান্দে সখি আমার",
     artist: "F A সুমন",
     img: "https://github.com/masumbillah6778/image/raw/main/tania-thumbnail.jpg",
-    src: "https://github.com/masumbillah6778/sadsong/raw/main/vitor_kande_soki_amar.mp3"
+    src: "https://github.com/masumbillah6778bd/indian-sad-music/raw/main/valobase-chaine-ami.mp3"
   },
   {
     name: "8. আমার জনম গেল ভুলে ভুলে",
     artist: "রমা কর্মকার",
     img: "https://github.com/masumbillah6778/image/raw/main/tania-thumbnail.jpg",
-    src: "https://github.com/masumbillah6778/sadsong/raw/main/amar_jonom_gelo_vule_vule.mp3"
+    src: "https://github.com/masumbillah6778bd/indian-sad-music/raw/main/jani-akash-paina.mp3"
   },
   {
     name: "9. তুমি দুরে দুরে আর থেকো না",
