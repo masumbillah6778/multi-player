@@ -51,7 +51,7 @@ let allMusic = [
     name: "৯. তুমি দুরে দুরে আর থেকো না",
     artist: "ইমরান ও পূজা",
     img: "https://github.com/masumbillah6778/image/raw/main/tania-thumbnail.jpg",
-    src: "https://github.com/masumbillah6778/sadsong/raw/main/tomi_dure_dure_r_thekona.mp3"
+    src: "https://github.com/masumbillah6778bd/indian-sad-music/raw/main/a-jibone-prem-sei-proshno.mp3"
   },
   {
     name: "১০. ওলো আমার পরাণ সখি",
