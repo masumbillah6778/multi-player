@@ -36,19 +36,19 @@ let allMusic = [
     src: "https://github.com/masumbillah6778bd/indian-sad-music/raw/main/pirit-koris-na.mp3"
   },
   {
-    name: "৭. ভিতর কান্দে সখি আমার",
+    name: "৭. ভালোবেসে চাইনি আমি কোনো প্রতিদান",
     artist: "F A সুমন",
     img: "https://github.com/masumbillah6778/image/raw/main/tania-thumbnail.jpg",
     src: "https://github.com/masumbillah6778bd/indian-sad-music/raw/main/valobase-chaine-ami.mp3"
   },
   {
-    name: "৮. আমার জনম গেল ভুলে ভুলে",
+    name: "৮. জানি আকাশ পায়না ছুঁতে মাটি",
     artist: "রমা কর্মকার",
     img: "https://github.com/masumbillah6778/image/raw/main/tania-thumbnail.jpg",
     src: "https://github.com/masumbillah6778bd/indian-sad-music/raw/main/jani-akash-paina.mp3"
   },
   {
-    name: "৯. তুমি দুরে দুরে আর থেকো না",
+    name: "৯. এ জীবনে প্রেম সেই প্রশ্ন",
     artist: "ইমরান ও পূজা",
     img: "https://github.com/masumbillah6778/image/raw/main/tania-thumbnail.jpg",
     src: "https://github.com/masumbillah6778bd/indian-sad-music/raw/main/a-jibone-prem-sei-proshno.mp3"
