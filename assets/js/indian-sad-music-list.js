@@ -36,25 +36,25 @@ let allMusic = [
     src: "https://github.com/masumbillah6778bd/indian-sad-music/raw/main/pirit-koris-na.mp3"
   },
   {
-    name: "7. ভিতর কান্দে সখি আমার",
+    name: "৭. ভিতর কান্দে সখি আমার",
     artist: "F A সুমন",
     img: "https://github.com/masumbillah6778/image/raw/main/tania-thumbnail.jpg",
     src: "https://github.com/masumbillah6778bd/indian-sad-music/raw/main/valobase-chaine-ami.mp3"
   },
   {
-    name: "8. আমার জনম গেল ভুলে ভুলে",
+    name: "৮. আমার জনম গেল ভুলে ভুলে",
     artist: "রমা কর্মকার",
     img: "https://github.com/masumbillah6778/image/raw/main/tania-thumbnail.jpg",
     src: "https://github.com/masumbillah6778bd/indian-sad-music/raw/main/jani-akash-paina.mp3"
   },
   {
-    name: "9. তুমি দুরে দুরে আর থেকো না",
+    name: "৯. তুমি দুরে দুরে আর থেকো না",
     artist: "ইমরান ও পূজা",
     img: "https://github.com/masumbillah6778/image/raw/main/tania-thumbnail.jpg",
     src: "https://github.com/masumbillah6778/sadsong/raw/main/tomi_dure_dure_r_thekona.mp3"
   },
   {
-    name: "10. ওলো আমার পরাণ সখি",
+    name: "১0. ওলো আমার পরাণ সখি",
     artist: "সোহাগ",
     img: "https://github.com/masumbillah6778/image/raw/main/tania-thumbnail.jpg",
     src: "https://github.com/masumbillah6778/sadsong/raw/main/olo_amar_poran_sokhi.mp3"
