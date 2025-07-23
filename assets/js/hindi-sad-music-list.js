@@ -1,9 +1,9 @@
 let allMusic = [
   {
-    name: "১. তোর পিরিতে পাগল",
-    artist: "আকাশ মাহমুদ",
+    name: "১. দিল তো পাগল হে",
+    artist: "*",
     img: "https://github.com/masumbillah6778/image/raw/main/tania-thumbnail.jpg",
-    src: "https://github.com/masumbillah6778bd/indian-bangla-love-music/raw/main/tor-pirite.mp3"
+    src: "https://github.com/masumbillah6778bd/hindi-sad-music/raw/main/dil-ta-pagal-hai.mp3"
   },
   {
     name: "২. Ambient Classical Guitar",
