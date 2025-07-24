@@ -6,16 +6,16 @@ let allMusic = [
     src: "https://github.com/masumbillah6778bd/hindi-sad-music/raw/main/dil-ta-pagal-hai.mp3"
   },
   {
-    name: "২. Ambient Classical Guitar",
+    name: "২. কোহি মুজকো ইউ মিলাহো",
     artist: "William_King",
     img: "https://github.com/masumbillah6778/image/raw/main/tania-thumbnail.jpg",
     src: "https://github.com/masumbillah6778bd/hindi-sad-music/raw/main/kohi-mojko-u-mela.mp3"
   },
   {
-    name: "৩. The Cradle of Your Soul",
-    artist: "lemonmusicstudio",
+    name: "৩. মাহি তেরি চুনারিয়া",
+    artist: "অরিজিৎ সিং",
     img: "https://github.com/masumbillah6778/image/raw/main/tania-thumbnail.jpg",
-    src: "https://github.com/masumbillah6778bd/bangladesh-love-music/raw/main/baby-jan-jan-bole.mp3"
+    src: "https://github.com/masumbillah6778bd/hindi-sad-music/raw/main/mahi-teri-cunariya.mp3"
   },
   {
     name: "৪. Happy Acoustic Guitar Background Music",
