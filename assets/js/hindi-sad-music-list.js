@@ -18,10 +18,10 @@ let allMusic = [
     src: "https://github.com/masumbillah6778bd/hindi-sad-music/raw/main/mahi-teri-cunariya.mp3"
   },
   {
-    name: "৪. Happy Acoustic Guitar Background Music",
+    name: "৪. দিল লাগালিয়া",
     artist: "Music_Unlimited",
     img: "https://github.com/masumbillah6778/image/raw/main/tania-thumbnail.jpg",
-    src: "https://github.com/masumbillah6778bd/bangladesh-love-music/raw/main/ai-tumi-sey-tumi.mp3"
+    src: "https://github.com/masumbillah6778bd/hindi-sad-music/raw/main/dil-laga-liya-maine.mp3"
   },
   {
     name: "৫. Sleepy cat",
