@@ -7,37 +7,37 @@ let allMusic = [
   },
   {
     name: "২. কোহি মুজকো ইউ মিলাহো",
-    artist: "William_King",
+    artist: "*",
     img: "https://github.com/masumbillah6778/image/raw/main/tania-thumbnail.jpg",
     src: "https://github.com/masumbillah6778bd/hindi-sad-music/raw/main/kohi-mojko-u-mela.mp3"
   },
   {
     name: "৩. মাহি তেরি চুনারিয়া",
-    artist: "অরিজিৎ সিং",
+    artist: "*",
     img: "https://github.com/masumbillah6778/image/raw/main/tania-thumbnail.jpg",
     src: "https://github.com/masumbillah6778bd/hindi-sad-music/raw/main/mahi-teri-cunariya.mp3"
   },
   {
     name: "৪. দিল লাগালিয়া",
-    artist: "Music_Unlimited",
+    artist: "*",
     img: "https://github.com/masumbillah6778/image/raw/main/tania-thumbnail.jpg",
     src: "https://github.com/masumbillah6778bd/hindi-sad-music/raw/main/dil-laga-liya-maine.mp3"
   },
   {
-    name: "৫. Sleepy cat",
-    artist: "Lofi_hour",
+    name: "৫. সানাম রে",
+    artist: "*",
     img: "https://github.com/masumbillah6778/image/raw/main/tania-thumbnail.jpg",
-    src: "https://github.com/masumbillah6778bd/bangladesh-love-music/raw/main/ak-bindu-valobasa-dau.mp3"
+    src: "https://github.com/masumbillah6778bd/bangladesh-love-music/raw/main/sanam-re.mp3"
   },
   {
     name: "৬. Cinematic Fairy Tale Story",
-    artist: "Daddy_s_Music",
+    artist: "*",
     img: "https://github.com/masumbillah6778/image/raw/main/tania-thumbnail.jpg",
     src: "https://github.com/masumbillah6778bd/bangladesh-love-music/raw/main/amar-jibon-naye-bondhu.mp3"
   },
   {
     name: "৭. Relaxed Vlog (Night Street)",
-    artist: "Ashot-Danielyan-Composer",
+    artist: "*",
     img: "https://github.com/masumbillah6778/image/raw/main/tania-thumbnail.jpg",
     src: "https://github.com/masumbillah6778bd/bangladesh-love-music/raw/main/asi-asi-prem.mp3"
   },
