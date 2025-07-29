@@ -27,43 +27,43 @@ let allMusic = [
     name: "৫. সানাম রে",
     artist: "*",
     img: "https://github.com/masumbillah6778/image/raw/main/tania-thumbnail.jpg",
-    src: "https://github.com/masumbillah6778bd/bangladesh-love-music/raw/main/sanam-re.mp3"
+    src: "https://github.com/masumbillah6778bd/hindi-sad-music/raw/main/sanam-re.mp3"
   },
   {
     name: "৬. Cinematic Fairy Tale Story",
     artist: "*",
     img: "https://github.com/masumbillah6778/image/raw/main/tania-thumbnail.jpg",
-    src: "https://github.com/masumbillah6778bd/bangladesh-love-music/raw/main/amar-jibon-naye-bondhu.mp3"
+    src: "https://github.com/masumbillah6778bd/hindi-sad-music/raw/main/amar-jibon-naye-bondhu.mp3"
   },
   {
     name: "৭. Relaxed Vlog (Night Street)",
     artist: "*",
     img: "https://github.com/masumbillah6778/image/raw/main/tania-thumbnail.jpg",
-    src: "https://github.com/masumbillah6778bd/bangladesh-love-music/raw/main/asi-asi-prem.mp3"
+    src: "https://github.com/masumbillah6778bd/hindi-sad-music/raw/main/asi-asi-prem.mp3"
   },
   {
     name: "৮. Summer Walk",
     artist: "Olexy",
     img: "https://github.com/masumbillah6778/image/raw/main/tania-thumbnail.jpg",
-    src: "https://github.com/masumbillah6778bd/bangladesh-love-music/raw/main/hridoyer-albume-chobi-chilo-jar.mp3"
+    src: "https://github.com/masumbillah6778bd/hindi-sad-music/raw/main/hridoyer-albume-chobi-chilo-jar.mp3"
   },
   {
     name: "৯. Happy Day",
     artist: "Top-Flow-Production",
     img: "https://github.com/masumbillah6778/image/raw/main/tania-thumbnail.jpg",
-    src: "https://github.com/masumbillah6778bd/bangladesh-love-music/raw/main/jan-korban.mp3"
+    src: "https://github.com/masumbillah6778bd/hindi-sad-music/raw/main/jan-korban.mp3"
   },
   {
     name: "১০. পিরিত ভিষন জ্বালা",
     artist: "আকাশ মাহমুদ",
     img: "https://github.com/masumbillah6778/image/raw/main/tania-thumbnail.jpg",
-    src: "https://github.com/masumbillah6778bd/bangladesh-love-music/raw/main/je-amar-mon-kereche.mp3"
+    src: "https://github.com/masumbillah6778bd/hindi-sad-music/raw/main/je-amar-mon-kereche.mp3"
   },
   {
     name: "১১. পিরিত ভিষন জ্বালা",
     artist: "আকাশ মাহমুদ",
     img: "https://github.com/masumbillah6778/image/raw/main/tania-thumbnail.jpg",
-    src: "https://github.com/masumbillah6778bd/bangladesh-love-music/raw/main/na-na-korbo-na-prem.mp3"
+    src: "https://github.com/masumbillah6778bd/hindi-sad-music/raw/main/na-na-korbo-na-prem.mp3"
   },
   {
     name: "১২. Ambient Classical Guitar",
