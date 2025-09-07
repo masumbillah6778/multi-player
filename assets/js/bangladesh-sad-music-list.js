@@ -60,56 +60,56 @@ let allMusic = [
         src: "https://github.com/masumbillah6778/sadsong/raw/main/olo_amar_poran_sokhi.mp3"
     },
     {
-        name: "১১. Eto Kosto Buker Vitor",
-        artist: "Promit, Sweety",
+        name: "১১. এতো কষ্ট বুকের ভিতর",
+        artist: "প্রমিত, Sweety",
         img: "https://masumbillah6778.github.io/images/music-thumbnail-10.jpg",
         music: "https://github.com/masumbillah6778/sadsong/raw/main/eto_kosto_buker_vitor.mp3"
     },
     {
-        name: "Mon Tor Hoyeche Ki",
-        artist: "Imran Mahamudul",
+        name: "মন তোর হয়েছে কি",
+        artist: "ইমরান মাহমুদুল",
         img: "https://masumbillah6778.github.io/images/music-thumbnail-10.jpg",
         music: "https://github.com/masumbillah6778/sadsong/raw/main/mon_tor_hoyeche_ki.mp3"
     },
     {
-        name: "১২. Mom Bole Priya Priya",
+        name: "১২. মন বলে প্রিয়া প্রিয়া",
         artist: " ",
         img: "https://masumbillah6778.github.io/images/music-thumbnail-10.jpg",
         music: "https://github.com/masumbillah6778/sadsong/raw/main/mon_bole_priya_priya.mp3"
     },
     {
-        name: "১৩. Kar Basore Gumaou",
-        artist: "Atif Ahmed Niloy",
+        name: "১৩. কার বাসরে ঘুম বন্ধু",
+        artist: "আতিফ আহম্মেদ নিলয়",
         img: "https://masumbillah6778.github.io/images/music-thumbnail-10.jpg",
         music: "https://github.com/masumbillah6778/sadsong/raw/main/kar_basore_gumao.mp3"
     },
     {
-        name: "১৪. Cokher Jole Vasiye Dilam",
-        artist: "Zubeen Garg",
+        name: "১৪. চোখের জলে ভাসিয়ে দিলাম",
+        artist: "জুবিন গর্গ",
         img: "https://masumbillah6778.github.io/images/music-thumbnail-10.jpg",
         music: "https://github.com/masumbillah6778/sadsong/raw/main/chokher_jole_vasiye_dilam.mp3"
     },
     {
-        name: "১৫. Jiboner Aina",
-        artist: "Parveg",
+        name: "১৫. জিবনের আয়না",
+        artist: "পারভেজ",
         img: "https://masumbillah6778.github.io/images/music-thumbnail-10.jpg",
         music: "https://github.com/masumbillah6778/sadsong/raw/main/jiboner_ayna.mp3"
     },
     {
-        name: "১৬. Tumi Amar Shudhu Amar",
+        name: "১৬. তুমি আমার শুধু আমার",
         artist: "Clean Bandit",
         img: "https://masumbillah6778.github.io/images/music-thumbnail-10.jpg",
         music: "https://github.com/masumbillah6778/sadsong/raw/main/tumi_amar_shudhu_amar.mp3"
     },
     {
-        name: "১৭. Soite Pari Nare Doyal Re",
-        artist: "Miraj Khan",
+        name: "১৭. সইতে পারি নারে দয়াল রে",
+        artist: "মিরাজ খাঁন",
         img: "https://masumbillah6778.github.io/images/music-thumbnail-10.jpg",
         music: "https://github.com/masumbillah6778bd/bangladesh-sad-music/raw/main/soite-pari-nare-doyal-re.mp3"
     },
     {
-        name: "১৮. Moron Jodi Ase o Priyotoma",
-        artist: "Larjina Parbin",
+        name: "১৮. মরন যদি আসে",
+        artist: "লার্জিনা পারভীন",
         img: "https://masumbillah6778.github.io/images/music-thumbnail-10.jpg",
         music: "https://github.com/masumbillah6778bd/bangladesh-sad-music/raw/main/moron-jodi-ase-o-priyotoma.mp3"
     },
