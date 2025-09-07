@@ -60,7 +60,7 @@ let allMusic = [
         src: "https://github.com/masumbillah6778/sadsong/raw/main/olo_amar_poran_sokhi.mp3"
     },
     {
-        name: "Eto Kosto Buker Vitor",
+        name: "১১. Eto Kosto Buker Vitor",
         artist: "Promit, Sweety",
         img: "https://masumbillah6778.github.io/images/music-thumbnail-10.jpg",
         music: "https://github.com/masumbillah6778/sadsong/raw/main/eto_kosto_buker_vitor.mp3"
@@ -72,127 +72,127 @@ let allMusic = [
         music: "https://github.com/masumbillah6778/sadsong/raw/main/mon_tor_hoyeche_ki.mp3"
     },
     {
-        name: "Mom Bole Priya Priya",
+        name: "১২. Mom Bole Priya Priya",
         artist: " ",
         img: "https://masumbillah6778.github.io/images/music-thumbnail-10.jpg",
         music: "https://github.com/masumbillah6778/sadsong/raw/main/mon_bole_priya_priya.mp3"
     },
     {
-        name: "Kar Basore Gumaou",
+        name: "১৩. Kar Basore Gumaou",
         artist: "Atif Ahmed Niloy",
         img: "https://masumbillah6778.github.io/images/music-thumbnail-10.jpg",
         music: "https://github.com/masumbillah6778/sadsong/raw/main/kar_basore_gumao.mp3"
     },
     {
-        name: "Cokher Jole Vasiye Dilam",
+        name: "১৪. Cokher Jole Vasiye Dilam",
         artist: "Zubeen Garg",
         img: "https://masumbillah6778.github.io/images/music-thumbnail-10.jpg",
         music: "https://github.com/masumbillah6778/sadsong/raw/main/chokher_jole_vasiye_dilam.mp3"
     },
     {
-        name: "Jiboner Aina",
+        name: "১৫. Jiboner Aina",
         artist: "Parveg",
         img: "https://masumbillah6778.github.io/images/music-thumbnail-10.jpg",
         music: "https://github.com/masumbillah6778/sadsong/raw/main/jiboner_ayna.mp3"
     },
     {
-        name: "Tumi Amar Shudhu Amar",
+        name: "১৬. Tumi Amar Shudhu Amar",
         artist: "Clean Bandit",
         img: "https://masumbillah6778.github.io/images/music-thumbnail-10.jpg",
         music: "https://github.com/masumbillah6778/sadsong/raw/main/tumi_amar_shudhu_amar.mp3"
     },
     {
-        name: "Soite Pari Nare Doyal Re",
+        name: "১৭. Soite Pari Nare Doyal Re",
         artist: "Miraj Khan",
         img: "https://masumbillah6778.github.io/images/music-thumbnail-10.jpg",
         music: "https://github.com/masumbillah6778bd/bangladesh-sad-music/raw/main/soite-pari-nare-doyal-re.mp3"
     },
     {
-        name: "Moron Jodi Ase o Priyotoma",
+        name: "১৮. Moron Jodi Ase o Priyotoma",
         artist: "Larjina Parbin",
         img: "https://masumbillah6778.github.io/images/music-thumbnail-10.jpg",
         music: "https://github.com/masumbillah6778bd/bangladesh-sad-music/raw/main/moron-jodi-ase-o-priyotoma.mp3"
     },
     {
-        name: "O Kolija Kolija Re",
+        name: "১৯. O Kolija Kolija Re",
         artist: "Larjina Parbin",
         img: "https://masumbillah6778.github.io/images/music-thumbnail-10.jpg",
         music: "https://github.com/masumbillah6778bd/bangladesh-sad-music/raw/main/o-kolija-kolija-re.mp3"
     },
     {
-        name: "A Pagoler Valobasar Sovab",
+        name: "২০. A Pagoler Valobasar Sovab",
         artist: "Slowed & Reverb",
         img: "https://masumbillah6778.github.io/images/music-thumbnail-10.jpg",
         music: "https://github.com/masumbillah6778bd/bangladesh-sad-music/raw/main/a-pagoler-valobasar-sovab.mp3"
     },
     {
-        name: "Amar Bondhur O bondhu ase",
+        name: "২১. Amar Bondhur O bondhu ase",
         artist: "Parvez Khan",
         img: "https://masumbillah6778.github.io/images/music-thumbnail-10.jpg",
         music: "https://github.com/masumbillah6778bd/bangladesh-sad-music/raw/main/amar-bondhur-o-bondhu-ase.mp3"
     },
     {
-        name: "Hay Re Boka Mon",
+        name: "২২. Hay Re Boka Mon",
         artist: "Keshab Dey",
         img: "https://masumbillah6778.github.io/images/music-thumbnail-10.jpg",
         music: "https://github.com/masumbillah6778bd/bangladesh-sad-music/raw/main/hay-re-boka-mon.mp3"
     },
     {
-        name: "Tomi Bondhu Asmaner Chad",
+        name: "২৩. Tomi Bondhu Asmaner Chad",
         artist: "Jhinuk",
         img: "https://masumbillah6778.github.io/images/music-thumbnail-10.jpg",
         music: "https://github.com/masumbillah6778bd/bangladesh-sad-music/raw/main/tomi-bondhu-asmaner-chad.mp3"
     },
     {
-        name: "Ekul Okul",
+        name: "২৪. Ekul Okul",
         artist: "Slowed & Reverb",
         img: "https://masumbillah6778.github.io/images/music-thumbnail-10.jpg",
         music: "https://github.com/masumbillah6778bd/bangladesh-sad-music/raw/main/ekul-okul.mp3"
     },
     {
-        name: "Dukkho Jodi Bicri Hoito",
+        name: "২৫. Dukkho Jodi Bicri Hoito",
         artist: "Baul Shofi Mondol",
         img: "https://masumbillah6778.github.io/images/music-thumbnail-10.jpg",
         music: "https://github.com/masumbillah6778bd/bangladesh-sad-music/raw/main/dukkho-jodi-bikkiri-hoyto.mp3"
     },
     {
-        name: "Amar Keho Naire Bondhu",
+        name: "২৬. Amar Keho Naire Bondhu",
         artist: "Akash Mahmud",
         img: "https://masumbillah6778.github.io/images/music-thumbnail-10.jpg",
         music: "https://github.com/masumbillah6778bd/bangladesh-sad-music/raw/main/amar-keho-naire-bondhu.mp3"
     },
     {
-        name: "Jodi Arek Jonom Ami Paigo",
+        name: "২৭. Jodi Arek Jonom Ami Paigo",
         artist: "S M Sharat",
         img: "https://masumbillah6778.github.io/images/music-thumbnail-10.jpg",
         music: "https://github.com/masumbillah6778bd/bangladesh-sad-music/raw/main/jodi-ar-ak-aonom-ami-pai-go.mp3"
     },
     {
-        name: "Ami karo moner Moto noy",
+        name: "২৮. Ami karo moner Moto noy",
         artist: "Parvez Khan",
         img: "https://masumbillah6778.github.io/images/music-thumbnail-10.jpg",
         music: "https://github.com/masumbillah6778bd/bangladesh-sad-music/raw/main/ei-jogote-ami-karo.mp3"
     },
     {
-        name: "Shikol Beri 1",
+        name: "২৯. Shikol Beri 1",
         artist: "Shimul Hasan",
         img: "https://masumbillah6778.github.io/images/music-thumbnail-10.jpg",
         music: "https://github.com/masumbillah6778bd/bangladesh-sad-music/raw/main/shikol-beri-1.mp3"
     },
     {
-        name: "Shikol Beri 2",
+        name: "৩০. Shikol Beri 2",
         artist: "Shimul Hasan",
         img: "https://masumbillah6778.github.io/images/music-thumbnail-10.jpg",
         music: "https://github.com/masumbillah6778bd/bangladesh-sad-music/raw/main/shikol-beri-2.mp3"
     },
     {
-        name: "Bojani Bul Kare",
+        name: "৩১. Bojani Bul Kare",
         artist: "Atik Hasan",
         img: "https://masumbillah6778.github.io/images/music-thumbnail-10.jpg",
         music: "https://github.com/masumbillah6778bd/bangladesh-sad-music/raw/main/bojani-bul-kare.mp3"
     },
     {
-        name: "Jogoter Pirit Vala Na",
+        name: "৩২. Jogoter Pirit Vala Na",
         artist: "Jhinuk",
         img: "https://masumbillah6778.github.io/images/music-thumbnail-10.jpg",
         music: "https://github.com/masumbillah6778bd/bangladesh-sad-music/raw/main/jogoter-pirit-valo-a.mp3"
