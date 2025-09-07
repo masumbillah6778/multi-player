@@ -114,37 +114,37 @@ let allMusic = [
         music: "https://github.com/masumbillah6778bd/bangladesh-sad-music/raw/main/moron-jodi-ase-o-priyotoma.mp3"
     },
     {
-        name: "১৯. O Kolija Kolija Re",
+        name: "১৯. ও কলিজা কলিজা রে",
         artist: "Larjina Parbin",
         img: "https://masumbillah6778.github.io/images/music-thumbnail-10.jpg",
         music: "https://github.com/masumbillah6778bd/bangladesh-sad-music/raw/main/o-kolija-kolija-re.mp3"
     },
     {
-        name: "২০. A Pagoler Valobasar Sovab",
+        name: "২০. এ পাগলের ভালোবাসার স্বভাব",
         artist: "Slowed & Reverb",
         img: "https://masumbillah6778.github.io/images/music-thumbnail-10.jpg",
         music: "https://github.com/masumbillah6778bd/bangladesh-sad-music/raw/main/a-pagoler-valobasar-sovab.mp3"
     },
     {
-        name: "২১. Amar Bondhur O bondhu ase",
-        artist: "Parvez Khan",
+        name: "২১. আমার বন্ধুর ও বন্দু আছে",
+        artist: "পারভেজ খাঁন",
         img: "https://masumbillah6778.github.io/images/music-thumbnail-10.jpg",
         music: "https://github.com/masumbillah6778bd/bangladesh-sad-music/raw/main/amar-bondhur-o-bondhu-ase.mp3"
     },
     {
-        name: "২২. Hay Re Boka Mon",
-        artist: "Keshab Dey",
+        name: "২২. হায়রে বোকা মন",
+        artist: "কিসব দে",
         img: "https://masumbillah6778.github.io/images/music-thumbnail-10.jpg",
         music: "https://github.com/masumbillah6778bd/bangladesh-sad-music/raw/main/hay-re-boka-mon.mp3"
     },
     {
-        name: "২৩. Tomi Bondhu Asmaner Chad",
-        artist: "Jhinuk",
+        name: "২৩. তুমি বন্ধু আসমানের চাঁদ",
+        artist: "ঝিনুক",
         img: "https://masumbillah6778.github.io/images/music-thumbnail-10.jpg",
         music: "https://github.com/masumbillah6778bd/bangladesh-sad-music/raw/main/tomi-bondhu-asmaner-chad.mp3"
     },
     {
-        name: "২৪. Ekul Okul",
+        name: "২৪. একুল ওকুল",
         artist: "Slowed & Reverb",
         img: "https://masumbillah6778.github.io/images/music-thumbnail-10.jpg",
         music: "https://github.com/masumbillah6778bd/bangladesh-sad-music/raw/main/ekul-okul.mp3"
@@ -156,44 +156,44 @@ let allMusic = [
         music: "https://github.com/masumbillah6778bd/bangladesh-sad-music/raw/main/dukkho-jodi-bikkiri-hoyto.mp3"
     },
     {
-        name: "২৬. Amar Keho Naire Bondhu",
-        artist: "Akash Mahmud",
+        name: "২৬. আমার কেহ নায়রে বন্ধু",
+        artist: "আকাশ মাহমুদ",
         img: "https://masumbillah6778.github.io/images/music-thumbnail-10.jpg",
         music: "https://github.com/masumbillah6778bd/bangladesh-sad-music/raw/main/amar-keho-naire-bondhu.mp3"
     },
     {
-        name: "২৭. Jodi Arek Jonom Ami Paigo",
-        artist: "S M Sharat",
+        name: "২৭. যদি আর এক জনম",
+        artist: "এস এম শরৎ",
         img: "https://masumbillah6778.github.io/images/music-thumbnail-10.jpg",
         music: "https://github.com/masumbillah6778bd/bangladesh-sad-music/raw/main/jodi-ar-ak-aonom-ami-pai-go.mp3"
     },
     {
-        name: "২৮. Ami karo moner Moto noy",
-        artist: "Parvez Khan",
+        name: "২৮. আমি করো মনের মতো নয়",
+        artist: "পারভেজ খাঁন",
         img: "https://masumbillah6778.github.io/images/music-thumbnail-10.jpg",
         music: "https://github.com/masumbillah6778bd/bangladesh-sad-music/raw/main/ei-jogote-ami-karo.mp3"
     },
     {
-        name: "২৯. Shikol Beri 1",
-        artist: "Shimul Hasan",
+        name: "২৯. সিকল বেরি - ১",
+        artist: "শিমুল হাসান",
         img: "https://masumbillah6778.github.io/images/music-thumbnail-10.jpg",
         music: "https://github.com/masumbillah6778bd/bangladesh-sad-music/raw/main/shikol-beri-1.mp3"
     },
     {
-        name: "৩০. Shikol Beri 2",
-        artist: "Shimul Hasan",
+        name: "৩০. সিকল বেরি - ২",
+        artist: "শিমুল হাসান",
         img: "https://masumbillah6778.github.io/images/music-thumbnail-10.jpg",
         music: "https://github.com/masumbillah6778bd/bangladesh-sad-music/raw/main/shikol-beri-2.mp3"
     },
     {
-        name: "৩১. Bojani Bul Kare",
-        artist: "Atik Hasan",
+        name: "৩১. বোঝনি ভুল করে",
+        artist: "অতিক হাসান",
         img: "https://masumbillah6778.github.io/images/music-thumbnail-10.jpg",
         music: "https://github.com/masumbillah6778bd/bangladesh-sad-music/raw/main/bojani-bul-kare.mp3"
     },
     {
-        name: "৩২. Jogoter Pirit Vala Na",
-        artist: "Jhinuk",
+        name: "৩২. জগতের পিরিত ভালো না",
+        artist: "ঝিনুক",
         img: "https://masumbillah6778.github.io/images/music-thumbnail-10.jpg",
         music: "https://github.com/masumbillah6778bd/bangladesh-sad-music/raw/main/jogoter-pirit-valo-a.mp3"
     }
