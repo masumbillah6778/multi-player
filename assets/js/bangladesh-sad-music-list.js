@@ -37,7 +37,7 @@ let allMusic = [
     },
     {
         name: "৭. ভিতর কান্দে সখি আমার",
-        artist: "F A সুমন",
+        artist: "এফ এ সুমন",
         img: "https://github.com/masumbillah6778/image/raw/main/tania-thumbnail.jpg",
         src: "https://github.com/masumbillah6778/sadsong/raw/main/vitor_kande_soki_amar.mp3"
     },
@@ -61,7 +61,7 @@ let allMusic = [
     },
     {
         name: "১১. এতো কষ্ট বুকের ভিতর",
-        artist: "প্রমিত, Sweety",
+        artist: "প্রমিট ও সু্ইটি",
         img: "https://masumbillah6778.github.io/images/music-thumbnail-10.jpg",
         music: "https://github.com/masumbillah6778/sadsong/raw/main/eto_kosto_buker_vitor.mp3"
     },
@@ -97,7 +97,7 @@ let allMusic = [
     },
     {
         name: "১৬. তুমি আমার শুধু আমার",
-        artist: "Clean Bandit",
+        artist: "জনি খন্দকার ও মোহনা",
         img: "https://masumbillah6778.github.io/images/music-thumbnail-10.jpg",
         music: "https://github.com/masumbillah6778/sadsong/raw/main/tumi_amar_shudhu_amar.mp3"
     },
@@ -115,7 +115,7 @@ let allMusic = [
     },
     {
         name: "১৯. ও কলিজা কলিজা রে",
-        artist: "Larjina Parbin",
+        artist: "লার্জিনা পারভীন",
         img: "https://masumbillah6778.github.io/images/music-thumbnail-10.jpg",
         music: "https://github.com/masumbillah6778bd/bangladesh-sad-music/raw/main/o-kolija-kolija-re.mp3"
     },
@@ -133,7 +133,7 @@ let allMusic = [
     },
     {
         name: "২২. হায়রে বোকা মন",
-        artist: "কিসব দে",
+        artist: "কেশব দে",
         img: "https://masumbillah6778.github.io/images/music-thumbnail-10.jpg",
         music: "https://github.com/masumbillah6778bd/bangladesh-sad-music/raw/main/hay-re-boka-mon.mp3"
     },
@@ -150,8 +150,8 @@ let allMusic = [
         music: "https://github.com/masumbillah6778bd/bangladesh-sad-music/raw/main/ekul-okul.mp3"
     },
     {
-        name: "২৫. Dukkho Jodi Bicri Hoito",
-        artist: "Baul Shofi Mondol",
+        name: "২৫. দুঃখ যদি বিক্রি হয়তো",
+        artist: "বাইল শফি মন্ডল",
         img: "https://masumbillah6778.github.io/images/music-thumbnail-10.jpg",
         music: "https://github.com/masumbillah6778bd/bangladesh-sad-music/raw/main/dukkho-jodi-bikkiri-hoyto.mp3"
     },
