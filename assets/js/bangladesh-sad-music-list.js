@@ -60,34 +60,22 @@ let allMusic = [
     src: "https://github.com/masumbillah6778/sadsong/raw/main/olo_amar_poran_sokhi.mp3"
   },
   {
-        name : 'Ami To Amar Asi',
-        artist : 'Khairul Wasi',
-        img : 'https://masumbillah6778.github.io/images/music-thumbnail-10.jpg',
-        music : 'https://github.com/masumbillah6778/sadsong/raw/main/ami_to_amar_asi.mp3'
+    name : 'Sathi Valobasa Mon',
+    artist : 'Miss Jojo',
+    img : 'https://masumbillah6778.github.io/images/music-thumbnail-10.jpg',
+    music : 'https://github.com/masumbillah6778/sadsong/raw/main/sathi_valobasa_mon.mp3'
     },
     {
-        name : 'O Bondu Re',
-        artist : 'Zubeen Garg',
-        img : 'https://masumbillah6778.github.io/images/music-thumbnail-10.jpg',
-        music : 'https://github.com/masumbillah6778/sadsong/raw/main/o_bondhu_re.mp3'
+      name : 'Manus Boroi Sattho Por',
+      artist : 'Baul Sukumar',
+      img : 'https://masumbillah6778.github.io/images/music-thumbnail-10.jpg',
+       music : 'https://github.com/masumbillah6778/sadsong/raw/main/manush_boroi_sharthopor.mp3'
     },
     {
-        name : 'Sathi Valobasa Mon',
-        artist : 'Miss Jojo',
-        img : 'https://masumbillah6778.github.io/images/music-thumbnail-10.jpg',
-        music : 'https://github.com/masumbillah6778/sadsong/raw/main/sathi_valobasa_mon.mp3'
-    },
-    {
-        name : 'Manus Boroi Sattho Por',
-        artist : 'Baul Sukumar',
-        img : 'https://masumbillah6778.github.io/images/music-thumbnail-10.jpg',
-        music : 'https://github.com/masumbillah6778/sadsong/raw/main/manush_boroi_sharthopor.mp3'
-    },
-    {
-        name : 'Amar Aguner Chai',
-        artist : 'Raj Barman',
-        img : 'https://masumbillah6778.github.io/images/music-thumbnail-10.jpg',
-        music : 'https://github.com/masumbillah6778/sadsong/raw/main/amar_aguner_chai.mp3'
+      name : 'Amar Aguner Chai',
+      artist : 'Raj Barman',
+      img : 'https://masumbillah6778.github.io/images/music-thumbnail-10.jpg',
+       music : 'https://github.com/masumbillah6778/sadsong/raw/main/amar_aguner_chai.mp3'
     },
     {
         name : 'Vitor Kande Shokhi',
