@@ -218,178 +218,19 @@ input:checked+.slider:before {
     border-radius: 50%;
 }
 
-.audio-heading {
-    color: red;
-    font-size: 25px;
-    font-family: 'sonsieone';
-}
-
-.vdieo-heading {
-    color: red;
-    font-size: 25px;
-    font-family: 'sonsieone';
-}
-
-.imges-heading {
-    color: red;
-    font-size: 25px;
-    font-family: 'sonsieone';
-}
-
 
 
 
 
 
 /*======================================== Audio & Video ========================================*/
-
-.cardBox {
-	width: 100%;
-	padding: 20px 0px;
-	display: grid;
-	position: relative;
-	grid-template-columns: repeat(3, 1fr);
-	grid-gap: 20px;
-}
-  
-.cardBox .card {
-	background-color: var(--white);
-    background-image: url("https://github.com/masumbillah6778/image/raw/main/tania-thumbnail.pg");
-    background-attachment:fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-	padding: 30px;
-	display: flex;
-	position: relative;
-	justify-content: space-between;
-	cursor: pointer;
-	border: 2px solid var(--red);
-	border-radius: 20px;
-    box-shadow: 2px 2px 5px Red, -2px -2px 5px Green;
-}
-
-.dark-mode .cardBox .card {
-	background-color: var(--black);
-}
-  
-.cardBox .card .cardName {
-	color: blue;
-	margin-top: 5px;
-	font-size: 30px;
-	font-weight: bol;
-	font-family: 'bangla-lipi';
-}
-
-.dark-mode .cardBox .card .cardName {
-	color: yellow;
-}
-   
-.cardBox .card .numbers {
-	color: red;
-	padding: 10px 0px;
-	font-size: 15px;
-	font-weight: 500;
-	font-family: 'bangla-lipi';
-	position: relative;
-}
-
-.dark-mode .cardBox .card .numbers {
-	color: white;
-}
-  
-.cardBox .card .iconBx {
-	color: var(--black2);
-	font-size: 30px;
-}
-  
-.cardBox .card .iconBx img {
-	background-color: var(--white);
-	width: 100px;
-	height: 100px;
-	border-radius: 50px;
-	box-shadow: 2px 2px 5px Red, -2px -2px 5px Green;
-}
-
-.dark-mode .cardBox .card .iconBx img {
-	background-color: var(--dark);
-}
-  
-.cardBox .card .iconBx img:hover {
-	background: var(--blue);
-}
-
-.dark-mode .cardBox .card .iconBx img:hover {
-	background: var(--yellow);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-/*======================================== IMAGES GALLERY ========================================*/
-
 .main {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
     justify-content: center;
     align-items: center;
 }
-  
-.card {
-    background: ;
-    color: ;
-    margin: 5px;
-    border-radius: 2px;
-    box-shadow: 2px 2px 5px Red, -2px -2px 5px Green;
-}
-
-.card-image {
-    background: ;
-    display: block;
-    padding-top: 70%;
-    position: relative;
-    width: 100%;
-}
-
-.card-image img {
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-
-@media only screen and (max-width: 600px) {
-  .main {
-    .container {
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-gap: 1rem;
-    }
-  }
-}
-
-
-
-
-
-
-
-
-
-
-/*======================================== Screen ========================================*/
 
 #about-us-section {
     width: 100%;
@@ -412,10 +253,6 @@ input:checked+.slider:before {
     padding: 0 20px;
 }
 
-.subheading {
-    color: var(--aboutus-strong-color);
-}
-
 .about-us-container p {
     font-size: 1.125rem;
     line-height: 1.6;
@@ -430,6 +267,60 @@ input:checked+.slider:before {
 .about-us-container p:last-of-type {
     margin-bottom: 0;
 }
+
+.heading {
+    color: red;
+    font-size: 25px;
+    font-family: 'sonsieone';
+}
+
+.content {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	grid-gap: 10px;
+  border: 2px solid red;
+}
+
+.content .content-box {
+  margin: 5px;
+	padding: 10px;
+  transition: transform .5s;
+  border: 2px solid blue;
+}
+
+.content .content-box:hover {
+    transform: rotate(360deg);
+}
+
+.content .content-box .box {
+  display: grid;
+  place-items: center;
+  border: 2px solid ;
+}
+
+.content .content-box .box .cover-image {
+	width: 200px;
+}
+
+.content .content-box .box .cover-image img {
+	width: 100%;
+}
+
+.content .content-box .box .aritst-name {
+	background-color: red;
+  width: 100%;
+  text-align: center;
+}
+
+.content .content-box .box .aritst-name a {
+	color: yellow;
+    padding: 10px 0px;
+    font-size: 20px;
+    font-family: solaiman-lipi;
+    font-weight: bold;
+}
+
 
 
 
@@ -510,6 +401,10 @@ footer img {
         flex-direction: row-reverse;
     }
     
+    .about-us-container {
+      padding: 0 5px;
+  }
+    
     .audio-heading {
       color: gold;
       font-size: 20px;
@@ -553,55 +448,47 @@ footer img {
     .navbar-link i {
         display: none;
     }
-
-	.cardBox {
-		grid-template-columns: repeat(1, 1fr);
-	  }
-	  
-	.cardBox .card .cardName {
-	color: red;
-	font-size: 20px;
+  
+    .content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .content .content-box .box .cover-image img {
+        display: block;
+        margin: 0 auto;
+    }
 }
-	
-	.cardBox .card .numbers {
-	  color: gold;
-	  font-size: 10px;
-	}
-	
-	.cardBox .card .iconBx img {
-	    width: 50px;
-	    height: 50px
-	}
+
 	
 	
 	/*========== Footer ==========*/
 	footer {
-    background-color: green;
-    color: #fff;
-    width: 100%;
-    height: 6vh;
-    padding: 0px 0;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-}
+        background-color: green;
+        color: #fff;
+        width: 100%;
+        height: 6vh;
+        padding: 0px 0;
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+    }
 
-footer p {
-    color: yellow;
-    font-size: 20px;
-    font-family: 'love-letters';
-}
+    footer p {
+        color: yellow;
+        font-size: 20px;
+        font-family: 'love-letters';
+    }
 
-footer img {
-    width: 30px;
-    height: 30px;
-    margin-top: 5px;
-}
+    footer img {
+        width: 30px;
+        height: 30px;
+        margin-top: 5px;
+    }
 
-.dark-mode footer {
-    background-color: #222;
-    border-top: 2px solid #fff;
-}
+    .dark-mode footer {
+        background-color: #222;
+        border-top: 2px solid #fff;
+    }
 }
 
 
