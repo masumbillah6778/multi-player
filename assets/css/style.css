@@ -287,7 +287,7 @@ input:checked+.slider:before {
 	margin: 5px;
 	padding: 10px;
 	transition: transform .5s;
-	border: px solid blue;
+	box-shadow: 2px 2px 5px Red, -2px -2px 5px Green;
 }
 
 .content .content-box:hover {
@@ -297,7 +297,7 @@ input:checked+.slider:before {
 .content .content-box .box {
   display: grid;
   place-items: center;
-  border: 2px solid ;
+  border: px solid ;
 }
 
 .content .content-box .box .cover-image {
@@ -491,6 +491,7 @@ footer img {
         border-top: 2px solid #fff;
     }
 }
+
 
 
 
