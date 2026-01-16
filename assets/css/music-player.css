@@ -569,8 +569,38 @@ input:checked+.slider:before {
   box-shadow: 0px 0px 5px red;
 }
   
-.material-icons {
-  =
+.music-list-header {
+  background-color: green;
+  color: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid yellow;
+}
+
+.music-list-header .row {
+  align-items: center;
+  text-align: center;
+}
+
+.list.material-icons {
+  background-color: blue;
+  padding: 12px;
+  border-radius: 0px 20px 20px 0px;
+  border-right: 2px solid yellow;
+}
+.row span {
+  color: white;
+  padding: 0px 0px 0px 55px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#close.material-icons {
+  background-color: red;
+  padding: 12px;
+  border-radius: 20px 0px 0px 20px;
+  border-left: 2px solid yellow;
 }
 
   
@@ -1195,6 +1225,7 @@ ul li.playing {
         border-top: 2px solid #fff;
     }
 }
+
 
 
 
