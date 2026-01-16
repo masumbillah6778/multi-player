@@ -280,7 +280,6 @@ input:checked+.slider:before {
 	display: grid;
 	grid-template-columns: repeat(6, 1fr);
 	grid-gap: 10px;
-	border-radius: 10px;
 	box-shadow: 2px 2px 5px Red, -2px -2px 5px Green;
 }
 
@@ -288,6 +287,7 @@ input:checked+.slider:before {
 	margin: 5px;
 	padding: 10px;
 	transition: transform .5s;
+	border-radius: 10px;
 	box-shadow: 2px 2px 5px Red, -2px -2px 5px Green;
 }
 
@@ -298,7 +298,6 @@ input:checked+.slider:before {
 .content .content-box .box {
   display: grid;
   place-items: center;
-  box-shadow: 2px 2px 5px Red, -2px -2px 5px Green;
 }
 
 .content .content-box .box .cover-image {
@@ -492,6 +491,7 @@ footer img {
         border-top: 2px solid #fff;
     }
 }
+
 
 
 
