@@ -314,11 +314,10 @@ input:checked+.slider:before {
   cursor: pointer;
 }
 
-.top-bar,
+.wrapper .top-bar,
 .progress-area .song-timer,
 .controls,
-.music-list .header,
-.music-list ul li {
+.music-list .header ul li {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1196,6 +1195,7 @@ ul li.playing {
         border-top: 2px solid #fff;
     }
 }
+
 
 
 
