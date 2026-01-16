@@ -337,7 +337,7 @@ input:checked+.slider:before {
   color: yellow;
   margin-left: -3px;
   font-size: 20px;
-  font-family: timse;
+  font-family: 'solaiman-lipi';
   font-weight: bold;
 }
 
@@ -869,6 +869,7 @@ footer img {
         border-top: 2px solid #fff;
     }
 }
+
 
 
 
