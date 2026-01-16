@@ -850,16 +850,6 @@ footer img {
   cursor: pointer;
 }
 
-.top-bar,
-.progress-area .song-timer,
-.controls,
-.music-list .header,
-.music-list ul li {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
 .top-bar i {
   font-size: 30px;
   color: white
@@ -1175,7 +1165,6 @@ ul li.playing {
   text-shadow: 1px 1px 2px black, 0 0 1px blue, 0 0 5px green ;
 }
 
-
 	
 	
 	/*========== Footer ==========*/
@@ -1207,6 +1196,7 @@ ul li.playing {
         border-top: 2px solid #fff;
     }
 }
+
 
 
 
