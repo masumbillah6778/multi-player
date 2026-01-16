@@ -470,6 +470,7 @@ input:checked+.slider:before {
 
 .controls {
   margin: 20px 0 5px 0;
+  border-radius: 10px;
   border: 2px solid cyan;
 }
   
@@ -869,6 +870,7 @@ footer img {
         border-top: 2px solid #fff;
     }
 }
+
 
 
 
