@@ -279,7 +279,7 @@ input:checked+.slider:before {
 	width: 100%;
 	display: grid;
 	grid-template-columns: repeat(6, 1fr);
-	grid-gap: 10px;
+	row-gap: 10px;
 	box-shadow: 2px 2px 5px Red, -2px -2px 5px Green;
 }
 
@@ -491,6 +491,7 @@ footer img {
         border-top: 2px solid #fff;
     }
 }
+
 
 
 
