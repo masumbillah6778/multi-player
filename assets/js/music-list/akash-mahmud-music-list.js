@@ -1,26 +1,27 @@
 let allMusic = [
   {
-    name: "1. Harley Bird - Home",
+    name: "১. মাহে রমজান এলো বছর ঘুর",
     artist: "আকাশ মাহমুদ",
     img: "https://masumbillah6778.github.io/images/thumbnail/akash-mahmud.jpg",
     src: "https://github.com/masumbillah6778bd/akash-mahmud/raw/main/64-jelar-gaan.mp3",
   },
   {
-    name: "2. Ikson Anywhere – Ikson",
+    name: "২. মাহে",
     artist: "আকাশ মাহমুদ",
     img: "https://masumbillah6778.github.io/images/thumbnail/akash-mahmud.jpg",
-    src: "https://github.com/masumbillah6778bd/akash-mahmud/raw/main/64-jelar-gaan.mp3",
+    src: "https://github.com/masumbillah6778bd/akash-mahmud/raw/main/takar-ak-mesin.mp3",
   },
   {
-    name: "3. Beauz & Jvna - Crazy",
+    name: "৩. মাহে ",
     artist: "আকাশ মাহমুদ",
     img: "https://masumbillah6778.github.io/images/thumbnail/akash-mahmud.jpg",
-    src: "https://github.com/masumbillah6778bd/akash-mahmud/raw/main/64-jelar-gaan.mp3",
+    src: "https://github.com/masumbillah6778bd/akash-mahmud/raw/main/amar-kajla-pakhi-re.mp3",
   },
   {
-    name: "4. Lost Sky - Vision NCS",
+    name: "৪. মাহ",
     artist: "আকাশ মাহমুদ",
     img: "https://masumbillah6778.github.io/images/thumbnail/akash-mahmud.jpg",
-    src: "https://github.com/masumbillah6778bd/akash-mahmud/raw/main/64-jelar-gaan.mp3",
+    src: "https://github.com/masumbillah6778bd/akash-mahmud/raw/main/akkhan-bandha-premer-ghor.mp3",
   },
 ];
+
