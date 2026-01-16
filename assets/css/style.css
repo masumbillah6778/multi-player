@@ -279,14 +279,15 @@ input:checked+.slider:before {
 	display: grid;
 	grid-template-columns: repeat(6, 1fr);
 	grid-gap: 10px;
-  border: 2px solid red;
+	border-radius: 10px;
+	box-shadow: 2px 2px 5px Red, -2px -2px 5px Green;
 }
 
 .content .content-box {
-  margin: 5px;
+	margin: 5px;
 	padding: 10px;
-  transition: transform .5s;
-  border: 2px solid blue;
+	transition: transform .5s;
+	border: px solid blue;
 }
 
 .content .content-box:hover {
@@ -490,6 +491,7 @@ footer img {
         border-top: 2px solid #fff;
     }
 }
+
 
 
 
