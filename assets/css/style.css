@@ -455,10 +455,11 @@ footer img {
     }
     
     .content .content-box .box .cover-image img {
+		width: 300px;
         display: block;
         margin: 0 auto;
     }
-}
+
 
 	
 	
@@ -491,6 +492,7 @@ footer img {
         border-top: 2px solid #fff;
     }
 }
+
 
 
 
