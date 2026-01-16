@@ -239,6 +239,7 @@ input:checked+.slider:before {
     margin-bottom: 3rem;
     padding-bottom: 20px;
     text-align: center;
+	overflow-y: scroll;
     border: 2px solid black;
     border-radius: 5px;
 
@@ -492,6 +493,7 @@ footer img {
         border-top: 2px solid #fff;
     }
 }
+
 
 
 
