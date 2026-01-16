@@ -301,7 +301,7 @@ input:checked+.slider:before {
 }
 
 .content .content-box .box .cover-image {
-	width: 200px;
+	width: auto;
 }
 
 .content .content-box .box .cover-image img {
@@ -491,6 +491,7 @@ footer img {
         border-top: 2px solid #fff;
     }
 }
+
 
 
 
