@@ -1,8 +1,8 @@
 let allMusic = [
   {
-    name: "Preya Re Preya Re",
-    artist : "Zubeen Garg",
-    img : "https://masumbillah6778.github.io/images/thumbnail/zubeen-garg.jpg",
-    music : "https://github.com/masumbillah6778/best-of-zubeen-garg/raw/main/piya-re-piya-re.mp3",
+    name: "1. Harley Bird - Home",
+    artist: "জুবিন গার্গ",
+    img: "https://masumbillah6778.github.io/images/thumbnail/zubeen-garg.jpg",
+    src: "https://github.com/masumbillah6778bd/akash-mahmud/raw/main/64-jelar-gaan.mp3",
   },
 ];
