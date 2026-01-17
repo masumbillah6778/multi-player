@@ -238,6 +238,7 @@ input:checked+.slider:before {
     margin-bottom: 3rem;
     padding-bottom: 20px;
     text-align: center;
+    overflow-y: scroll;
     border: 2px solid black;
     border-radius: 5px;
 
@@ -317,7 +318,7 @@ input:checked+.slider:before {
 .wrapper .top-bar,
 .progress-area .song-timer,
 .controls,
-.music-list .header ul li {
+.wrapper .music-list .music-list-header ul li {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -336,7 +337,7 @@ input:checked+.slider:before {
   color: yellow;
   margin-left: -3px;
   font-size: 20px;
-  font-family: 'solaiman-lipi';
+  font-family: solaiman-lipi;
   font-weight: bold;
 }
 
@@ -569,39 +570,12 @@ input:checked+.slider:before {
   box-shadow: 0px 0px 5px red;
 }
   
-.music-list-header {
-  background-color: green;
-  color: yellow;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border: 2px solid yellow;
-}
 
-.music-list-header .row {
-  align-items: center;
-  text-align: center;
-}
 
-.list.material-icons {
-  background-color: blue;
-  padding: 12px;
-  border-radius: 0px 20px 20px 0px;
-  border-right: 2px solid yellow;
-}
-.row span {
-  color: white;
-  padding: 0px 0px 0px 55px;
-  font-size: 30px;
-  font-weight: bold;
-}
 
-#close.material-icons {
-  background-color: red;
-  padding: 12px;
-  border-radius: 20px 0px 0px 20px;
-  border-left: 2px solid yellow;
-}
+
+
+
 
   
   
@@ -624,80 +598,81 @@ input:checked+.slider:before {
   transition: all 0.15s ease-out;
 }
 
+.music-list-header {
+  background-color: green;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid yellow;
+}
+
+.music-list-header .row span {
+  color: yellow;
+  margin-left: 230px;
+  font-size: 30px;
+  font-family: times;
+  font-weight: bold;
+  align-items: center;
+}
+
+.list.material-icons {
+  background-color: blue;
+  color: white;
+  padding: 12px;
+  font-size: 20px;
+  border-radius: 0px 20px 20px 0px;
+  border-right: 2px solid yellow;
+}
+
+#close.material-icons {
+  background-color: red;
+  color: yellow;
+  font-size: 20px;
+  padding: 12px;
+  font-weight: bold;
+  border-radius: 20px 0px 0px 20px;
+  border-left: 2px solid yellow;
+}
+
 .music-list.show {
   bottom: 0;
   opacity: 1;
   pointer-events: auto;
 }
 
-.header .row {
-  font-size: 25px;
-  color: white;
-  font-family: times;
-  font-weight: bold;
-  display: flex;
-  align-items: center;
-}
-
-.header .row i {
-  cursor: default;
-}
-
-.header .row span {
-  margin-left: 5px;
-}
-
-.header #close {
-  background: yellow;
-  color: red;
-  font-size: 20px;
-  margin-left: 10px;
-  padding: 10px;
-  border-radius: 50px;
-  box-shadow: 0px 0px 5px red;
-}
-  
- 
-/*======== Music List =======*/
 .music-list ul {
   margin: 10px 0;
-  max-height: 260px;
-  overflow: auto;
-}
-  
-.widget .post-body ul {
-  padding: 0;
-}
-
-.music-list ul::-webkit-scrollbar {
-  width: 0px;
-}
-
-.music-list ul li .row span {
-  color: yellow;
-  padding: 10px;
-  font-size: 15px;
-  font-family: 'solaiman-lipi';
-  font-weight: bold;
-  text-shadow: 1px 1px 1px green, 0 0 2px blue, 0 0 2px red;
-}
-
-.music-list ul li .row p {
-  padding: 0px 10px 10px 10px;
-  opacity: 0.9;
+  height: 260px;
+  overflow-y: scroll;
+  border: 2px solid white;
 }
 
 .music-list ul li {
-  color: white;
-  font-size: 10px;
-  font-family: 'solaiman-lipi';
+  margin: 0px 10px;
   list-style: none;
   display: flex;
   cursor: pointer;
-  padding-bottom: 20px;
-  margin-bottom: 5px;
+  border-bottom: 4px solid red;
 }
-  
+
+
+
+.music-list ul li .row span {
+  color: white;
+  padding: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'solaiman-lipi';
+  pointer-events: none;
+}
+
+.music-list ul li .row p {
+  color: yellow;
+  padding: 0px 10px 10px 10px;
+  font-family: 'solaiman-lipi';
+  opacity: 0.9;
+}
+
 .music-list ul li:before {
   content: "";
   font-family: fontawesome;
@@ -708,25 +683,31 @@ input:checked+.slider:before {
 }
   
 /*=================== Active Song ==============================*/
-
-ul li .row span {
-  color: black;
-  padding: 12px;
-  pointer-events: none;
-}
-
-ul li.playing {
-  background-color: white;
+.music-list ul li.playing {
+  background-color: red;
   color: green;
-  padding: 12px;
   pointer-events: none;
+  position: relative;
 }
-  
-ul li .audio-duration {
+
+.music-list ul li.playing .row span {
+  color: yellow;
+}
+
+.music-list ul li.playing .row p {
+  color: white;
+}
+
+.music-list ul li.playing .audio-duration {
+  background-color: white;
   color: red;
-  padding: 0px 10px 0px 0px;
+  margin: 30px 20px 0px 0px;
+  padding: 5px;
   font-size: 10px;
   font-weight: bold;
+  right: 0;
+  position: absolute;
+  border: 2px solid blue;
 }
   
 
@@ -775,7 +756,7 @@ footer img {
 /*======================================== MOBILE SCREEN ========================================*/
 
 @media screen and (max-width: 768px) {
-    .header {
+  .header {
     background-color: red;
     width: 100%;
     height: 10vh;
@@ -787,15 +768,30 @@ footer img {
     align-items: center;
     box-shadow: 0px 0px 20px 0px rgba(132, 144, 255, 0.2);
     z-index: 9;
+  }
+
+  .dark-mode .header {
+    background-color: green;
+    border-top: 2px solid #fff;
+}
+
+    .header a {
+      color: white;
     }
     
-    .header img {
-      width: ;
+    .header a img {
+      background-color: blue;
+      width: 50px;
+      height: 50px;
+      margin-top: 15px;
+      padding: 0px;
+      border: 4px solid white;
     }
 
     .brand-logo-name {
       color: gold;
-        font-size: 25px;
+      padding-top: -20px;
+        font-size: 40px;
     }
 
     .icon {
@@ -830,15 +826,20 @@ footer img {
     }
 
     .navbar-lists {
+        background-color: black;
+        width: 100%;
+        margin-top: 6px;
+        padding-top: 10px;
         display: none;
         position: absolute;
         top: 60px;
         left: 0;
-        background-color: #3beb2b;
-        width: 100%;
-        padding-top: 10px;
         z-index: 998;
     }
+
+    .dark-mode .navbar-lists {
+      background-color: gray;
+}
 
     .navbar-lists.responsive {
         display: flex;
@@ -857,12 +858,25 @@ footer img {
     .navbar-link i {
         display: none;
     }
+  
 
 
 
 
 
 
+
+
+
+
+
+
+.heading {
+    color: red;
+    font-size: 15px;
+    font-family: 'sonsieone';
+}
+    
 
 .wrapper {
   background-color: rgba(0, 0, 0, 0.6);
@@ -891,8 +905,8 @@ footer img {
 .top-bar span {
   color: yellow;
   margin-left: -3px;
-  font-size: 18px;
-  font-family: timse;
+  font-size: 15px;
+  font-family: solaiman-lipi;
   font-weight: bold;
 }
 
@@ -1102,45 +1116,19 @@ footer img {
   transition: all 0.15s ease-out;
 }
 
-.music-list.show {
-  bottom: 0;
-  opacity: 1;
-  pointer-events: auto;
-}
-
-.music-list .header {
+.music-list-header {
   background-color: teal;
-  padding: 5px;
-  box-shadow: 1px 1px 1px green, 0 0 2px blue, 0 0 2px red;
 }
 
-.header .row {
-  color: yellow;
-  display: flex;
-  align-items: center;
-  font-size: 25px;
+.music-list-header .row span {
+  color: white;
+  margin-left: 80px;
+  font-size: 20px;
+  font-family: times;
   font-weight: bold;
+  align-items: center;
 }
 
-.header .row i {
-  cursor: default;
-}
-
-.header .row span {
-  margin-left: 5px;
-}
-
-.header #close {
-  background: yellow;
-  color: red;
-  font-size: 15px;
-  margin-left: 10px;
-  padding: 10px;
-  border-radius: 50px;
-  box-shadow: 0px 0px 5px red;
-}
-
-/*======== Music List =======*/
 .music-list ul {
   margin: 10px 0;
   max-height: 260px;
@@ -1153,7 +1141,7 @@ footer img {
 
 .music-list ul li {
   color: yellow;
-  padding-bottom: 10px;
+  padding-bottom: 0px;
   margin-bottom: 5px;
   list-style: none;
   display: flex;
@@ -1163,6 +1151,13 @@ footer img {
 
 .music-list ul li:last-child {
   border-bottom: 0px;
+}
+
+/*=================== Active Song ==============================*/
+.music-list ul li.playing {
+    background-color: green;
+    pointer-events: none;
+    position: relative;
 }
 
 .music-list ul li .row span {
@@ -1178,21 +1173,17 @@ footer img {
   opacity: 1;
 }
 
-/*=================== Active Song ==============================*/
-ul li .audio-duration {
-  padding: 0px 5px;
-  font-size: 20px;
-  font-weight: bold;
+.music-list ul li.playing .audio-duration {
+  background-color: yellow;
+  width: 30px;
+  color: red;
+  margin: 12px 10px 0px 0px;
+  border-radius: 50px;
+  border: 2px solid blue;
+}
 }
 
-ul li.playing {
-  background-color: blue;
-  color: white;
-  padding-left: 5px;
-  padding-top: 10px;
-  pointer-events: none;
-  text-shadow: 1px 1px 2px black, 0 0 1px blue, 0 0 5px green ;
-}
+
 
 	
 	
@@ -1225,13 +1216,6 @@ ul li.playing {
         border-top: 2px solid #fff;
     }
 }
-
-
-
-
-
-
-
 
 
 
