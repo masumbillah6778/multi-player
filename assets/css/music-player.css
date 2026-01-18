@@ -868,8 +868,9 @@ footer img {
 
 
 
-
-
+#about-us-section {
+     padding-bottom: 0px;
+  }
 
 .heading {
     color: red;
@@ -882,7 +883,7 @@ footer img {
   background-color: rgba(0, 0, 0, 0.6);
   width: auto;
   margin: 0px;
-  /*padding: 25px 30px;*/
+  padding: 5px;
   overflow: hidden;
   position: relative;
   border: 3px solid red;
@@ -895,12 +896,12 @@ footer img {
 }
 
 .top-bar i {
-  font-size: 30px;
+  font-size: 20px;
   color: white
 }
 
 .top-bar i:first-child {
-  margin-left: -7px;
+  margin-left: 5px;
 }
 
 .top-bar span {
@@ -915,7 +916,7 @@ footer img {
   width: 100%;
   height: 256px;
   overflow: hidden;
-  margin-top: 25px;
+  margin-top: 10px;
   border-radius: 15px;
 }
 
@@ -927,7 +928,7 @@ footer img {
 
 .song-details {
   text-align: center;
-  margin: 30px 0;
+  margin: 10px 0;
 }
 
 .song-details p {
@@ -1014,7 +1015,7 @@ footer img {
 
 /*========== Control ==========*/
 .controls {
-  margin: 40px 0 5px 0;
+  margin: 5px 0px;
   border: 2px solid yellow;
 }
 
@@ -1034,7 +1035,7 @@ footer img {
   background: green;
   color: white;
   padding: 10px;
-  font-size: 20px;
+  font-size: 15px;
   align-items: center;
   justify-content: center;
   user-select: none;
@@ -1044,8 +1045,8 @@ footer img {
 
 .controls .play-pause {
   background: linear-gradient(white 0%, white 100%);
-  height: 54px;
-  width: 54px;
+  height: 40px;
+  width: 40px;
   display: flex;
   cursor: pointer;
   align-items: center;
@@ -1057,8 +1058,8 @@ footer img {
 .play-pause::before {
   position: absolute;
   content: "";
-  height: 43px;
-  width: 43px;
+  height: 30px;
+  width: 30px;
   border-radius: inherit;
   background-color: red;
 }
@@ -1079,7 +1080,7 @@ footer img {
   background: green;
   color: white;
   padding: 10px;
-  font-size: 20px;
+  font-size: 15px;
   align-items: center;
   justify-content: center;
   user-select: none;
@@ -1091,7 +1092,7 @@ footer img {
   background: gold;
   color: red;
   padding: 10px;
-  font-size: 20px;
+  font-size: 15px;
   align-items: center;
   justify-content: center;
   user-select: none;
@@ -1217,6 +1218,7 @@ footer img {
         border-top: 2px solid #fff;
     }
 }
+
 
 
 
