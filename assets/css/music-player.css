@@ -880,8 +880,9 @@ footer img {
 
 .wrapper {
   background-color: rgba(0, 0, 0, 0.6);
-  width: 380px;
-  padding: 25px 30px;
+  width: auto;
+  margin: 0px;
+  /*padding: 25px 30px;*/
   overflow: hidden;
   position: relative;
   border: 3px solid red;
@@ -1216,6 +1217,7 @@ footer img {
         border-top: 2px solid #fff;
     }
 }
+
 
 
 
