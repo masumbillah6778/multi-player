@@ -1042,6 +1042,7 @@ footer img {
 .progress-area {
   height: 6px;
   width: 100%;
+  margin-top: 20px;
   border-radius: 50px;
   background: #f0f0f0;
   cursor: pointer;
@@ -1307,6 +1308,7 @@ footer img {
         border-top: 2px solid #fff;
     }
 }
+
 
 
 
