@@ -1125,6 +1125,7 @@ footer img {
   height: 10px;
   width: 10px;
   margin-top: -10px;
+  left: 0px;
   border-radius: 0%;
 }
 
@@ -1380,6 +1381,7 @@ footer img {
         border-top: 2px solid #fff;
     }
 }
+
 
 
 
