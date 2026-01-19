@@ -548,6 +548,7 @@ footer img {
 
 	.heading {
     font-size: 15px;
+	padding: 10px 0px;
 	}
   
     .content {
@@ -595,6 +596,7 @@ footer img {
         border-top: 2px solid #fff;
     }
 }
+
 
 
 
