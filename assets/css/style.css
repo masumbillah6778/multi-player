@@ -274,6 +274,86 @@ input:checked+.slider:before {
     color: red;
     font-size: 25px;
     font-family: 'sonsieone';
+	animation: Color 6s linear infinite;
+    -webkit-animation: animation 4s ease-in-out infinite;
+}
+
+@keyframes animation {
+  0% {
+    color: green;
+  }
+  
+  20% {
+    color: red;
+  }
+  
+  40% {
+    color: yellow;
+  }
+  
+  60% {
+    color: blue;
+  }
+  
+  80% {
+    color: magenta;
+  }
+  
+  100% {
+    color: gold;
+  }
+}
+
+@-moz-keyframes animation {
+  0% {
+    color: green;
+  }
+  
+  20% {
+    color: red;
+  }
+  
+  40% {
+    color: yellow;
+  }
+  
+  60% {
+    color: blue;
+  }
+  
+  80% {
+    color: magenta;
+  }
+  
+  100% {
+    color: gold;
+  }
+}
+
+@-webkit-keyframes animation {
+  0% {
+    color: green;
+  }
+  
+  20% {
+    color: red;
+  }
+  
+  40% {
+    color: yellow;
+  }
+  
+  60% {
+    color: blue;
+  }
+  
+  80% {
+    color: magenta;
+  }
+  
+  100% {
+    color: gold;
+  }
 }
 
 .content {
@@ -465,6 +545,10 @@ footer img {
     .navbar-link i {
         display: none;
     }
+
+	.heading {
+    font-size: 15px;
+	}
   
     .content {
         grid-template-columns: repeat(1, 1fr);
@@ -508,6 +592,7 @@ footer img {
         border-top: 2px solid #fff;
     }
 }
+
 
 
 
