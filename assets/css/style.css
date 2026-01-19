@@ -552,6 +552,9 @@ footer img {
   
     .content {
         grid-template-columns: repeat(1, 1fr);
+		width: auto;
+		height: 638px;
+		overflow: scroll;
     }
     
     .content .content-box .box .cover-image img {
@@ -592,6 +595,7 @@ footer img {
         border-top: 2px solid #fff;
     }
 }
+
 
 
 
