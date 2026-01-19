@@ -873,7 +873,10 @@ footer img {
 
 
 #about-us-section {
-     padding-bottom: 0px;
+  background-color: blue;
+  height: 638px;
+  padding-bottom: 0px;
+  border: 2px solid magenta;
   }
 
 .heading {
@@ -1076,7 +1079,7 @@ footer img {
 }
 
 .progress-area .song-timer {
-  margin-top: 2px;
+  margin-top: 20px;
 }
 
 .song-timer .current-time {
@@ -1100,7 +1103,7 @@ footer img {
 
 /*========== Control ==========*/
 .controls {
-  margin: 5px 0px;
+  margin: 20px 5px 0px 5px;
   padding: 2px 5px;
   border: 2px solid yellow;
 }
@@ -1304,6 +1307,7 @@ footer img {
         border-top: 2px solid #fff;
     }
 }
+
 
 
 
